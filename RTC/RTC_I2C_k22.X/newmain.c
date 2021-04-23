@@ -139,7 +139,7 @@ void settings(void){
     SSP1STAT = 0x80;
     SSP1CON1 = 0x28;
     SSP1CON2 = 0;
-    SSP1ADD = 0x13;    
+    SSP1ADD = 0x13;
     //LCD
     TRISD = 0x00;
     LATD = 0x00;
