@@ -1,0 +1,2849 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="06/24/20||14:47:23" using="Simscape Multibody Link Version 6.1" from="SolidWorks 28.0.0"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="Manipulador_6R" uid="Manipulador_6R" version="895">
+<AssemblyFile name="Manipulador_6R.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="Balinera-1" uid="Balinera-1" entityUid="Balinera*:*Predeterminado">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.071583678990128657 0.022500395956339687 0.077990139963111077</Translation>
+</Transform>
+</Instance>
+<Instance name="rodamiento-1" uid="rodamiento-1" entityUid="rodamiento*:*Predeterminado">
+<Transform>
+<Rotation>-0.60077852475712668 0 -0.79941551410430534 0 1 0 0.79941551410430534 0 -0.60077852475712668</Rotation>
+<Translation>-0.0079424426448595851 0.022500395956339687 0.067500000000000032</Translation>
+</Transform>
+</Instance>
+<Instance name="Balinera-5" uid="Balinera-5" entityUid="Balinera*:*Predeterminado">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.062770711119932654 0.022500395956339687 0.033527791122368582</Translation>
+</Transform>
+</Instance>
+<Instance name="Balinera-2" uid="Balinera-2" entityUid="Balinera*:*Predeterminado">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.072434024957784685 0.022500395956339687 0.066457977555288594</Translation>
+</Transform>
+</Instance>
+<Instance name="Balinera-3" uid="Balinera-3" entityUid="Balinera*:*Predeterminado">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.07121155840605263 0.022500395956339687 0.054959306606217957</Translation>
+</Transform>
+</Instance>
+<Instance name="Balinera-4" uid="Balinera-4" entityUid="Balinera*:*Predeterminado">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.067955570415753924 0.022500395956339687 0.043863703861340413</Translation>
+</Transform>
+</Instance>
+<Instance name="Balinera-6" uid="Balinera-6" entityUid="Balinera*:*Predeterminado">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.055823626162473022 0.022500395956339687 0.024283773129150393</Translation>
+</Transform>
+</Instance>
+<Instance name="Balinera-24" uid="Balinera-24" entityUid="Balinera*:*Predeterminado">
+<Transform>
+<Rotation>0.74033234144119897 0 -0.67224104621496594 0 1 0 0.67224104621496594 0 0.74033234144119897</Rotation>
+<Translation>0.03587211259463486 0.022500395956339687 0.11483428724682804</Translation>
+</Transform>
+</Instance>
+<Instance name="Balinera-17" uid="Balinera-17" entityUid="Balinera*:*Predeterminado">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.050614581855407348 0.022500395956339687 0.040456980906799916</Translation>
+</Transform>
+</Instance>
+<Instance name="Balinera-18" uid="Balinera-18" entityUid="Balinera*:*Predeterminado">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.054502263896509848 0.022500395956339687 0.051347333812578139</Translation>
+</Transform>
+</Instance>
+<Instance name="Balinera-19" uid="Balinera-19" entityUid="Balinera*:*Predeterminado">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.056382921689697024 0.022500395956339687 0.062756846700078167</Translation>
+</Transform>
+</Instance>
+<Instance name="Balinera-25" uid="Balinera-25" entityUid="Balinera*:*Predeterminado">
+<Transform>
+<Rotation>0.40852133792664502 0 -0.91274876962865514 0 1 0 0.91274876962865514 0 0.40852133792664502</Rotation>
+<Translation>0.026716131318267625 0.022500395956339687 0.12189699670792845</Translation>
+</Transform>
+</Instance>
+<Instance name="Balinera-29" uid="Balinera-29" entityUid="Balinera*:*Predeterminado">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.017631950249814558 0.022500395956339687 0.13126804405322048</Translation>
+</Transform>
+</Instance>
+<Instance name="Balinera-30" uid="Balinera-30" entityUid="Balinera*:*Predeterminado">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.028862459809852119 0.022500395956339687 0.12851313696095601</Translation>
+</Transform>
+</Instance>
+<Instance name="Balinera-22" uid="Balinera-22" entityUid="Balinera*:*Predeterminado">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.049710348666295964 0.022500395956339687 0.096420678657879275</Translation>
+</Transform>
+</Instance>
+<Instance name="Balinera-10" uid="Balinera-10" entityUid="Balinera*:*Predeterminado">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.01556676646312876 0.022500395956339687 0.0034522077951604363</Translation>
+</Transform>
+</Instance>
+<Instance name="Balinera-7" uid="Balinera-7" entityUid="Balinera*:*Predeterminado">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.047337600569988245 0.022500395956339687 0.016428760225991199</Translation>
+</Transform>
+</Instance>
+<Instance name="Balinera-13" uid="Balinera-13" entityUid="Balinera*:*Predeterminado">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.037378449536694412 0.022500395956339687 0.021605918335061577</Translation>
+</Transform>
+</Instance>
+<Instance name="Balinera-14" uid="Balinera-14" entityUid="Balinera*:*Predeterminado">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.02845541944253337 0.022500395956339687 0.014251097330863105</Translation>
+</Transform>
+</Instance>
+<Instance name="Balinera-23" uid="Balinera-23" entityUid="Balinera*:*Predeterminado">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.043619858014868049 0.022500395956339687 0.10625021484683408</Translation>
+</Transform>
+</Instance>
+<Instance name="Balinera-8" uid="Balinera-8" entityUid="Balinera*:*Predeterminado">
+<Transform>
+<Rotation>-0.58990446586096479 0 0.80747304670638398 0 1 0 -0.80747304670638398 0 -0.58990446586096479</Rotation>
+<Translation>-0.037585382187345966 0.022500395956339687 0.010215218990724681</Translation>
+</Transform>
+</Instance>
+<Instance name="Balinera-12" uid="Balinera-12" entityUid="Balinera*:*Predeterminado">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0074241812502013754 0.022500395956339687 0.0048572281099578118</Translation>
+</Transform>
+</Instance>
+<Instance name="Balinera-26" uid="Balinera-26" entityUid="Balinera*:*Predeterminado">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.016446194957555851 0.022500395956339687 0.127211341936838</Translation>
+</Transform>
+</Instance>
+<Instance name="Balinera-28" uid="Balinera-28" entityUid="Balinera*:*Predeterminado">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.0060900119428004135 0.022500395956339687 0.13197339374109301</Translation>
+</Transform>
+</Instance>
+<Instance name="Balinera-20" uid="Balinera-20" entityUid="Balinera*:*Predeterminado">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.05619610934608546 0.022500395956339687 0.074318808437317196</Translation>
+</Transform>
+</Instance>
+<Instance name="Balinera-31" uid="Balinera-31" entityUid="Balinera*:*Predeterminado">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.039420582805159338 0.022500395956339687 0.12379721744499003</Translation>
+</Transform>
+</Instance>
+<Instance name="Balinera-15" uid="Balinera-15" entityUid="Balinera*:*Predeterminado">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.018362532112622745 0.022500395956339687 0.0086077398717936265</Translation>
+</Transform>
+</Instance>
+<Instance name="Balinera-27" uid="Balinera-27" entityUid="Balinera*:*Predeterminado">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0053923877172645795 0.022500395956339687 0.13060651550524174</Translation>
+</Transform>
+</Instance>
+<Instance name="Balinera-11" uid="Balinera-11" entityUid="Balinera*:*Predeterminado">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.0040080655479075161 0.022500395956339687 0.0031201065793123178</Translation>
+</Transform>
+</Instance>
+<Instance name="Balinera-21" uid="Balinera-21" entityUid="Balinera*:*Predeterminado">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.053947831168108556 0.022500395956339687 0.085661608060846453</Translation>
+</Transform>
+</Instance>
+<Instance name="Balinera-16" uid="Balinera-16" entityUid="Balinera*:*Predeterminado">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.04484482886598605 0.022500395956339687 0.030435812885747357</Translation>
+</Transform>
+</Instance>
+<Instance name="Separadores-4" uid="Separadores-4" entityUid="Separadores*:*Predeterminado">
+<Transform>
+<Rotation>-0.83716910433122238 0 -0.54694413860398872 0 -1 0 -0.54694413860398872 0 0.83716910433122238</Rotation>
+<Translation>0.022057557355140263 0.014500395956339802 0.037499999999999964</Translation>
+</Transform>
+</Instance>
+<Instance name="Servo Bracket - U Shaped-2" uid="Servo Bracket - U Shaped-2" entityUid="Servo Bracket - U Shaped*:*Défaut">
+<Transform>
+<Rotation>-3.4694469519533424e-15 -0.31952298241701327 -0.94757852640682882 1 -9.4478000701492266e-16 -3.2770669396679609e-15 0 -0.94757852640682871 0.31952298241701321</Rotation>
+<Translation>-0.019088630611022006 0.032000395956339807 0.068306309733985077</Translation>
+</Transform>
+</Instance>
+<Instance name="Servo Mount - Horn Frame-2" uid="Servo Mount - Horn Frame-2" entityUid="Servo Mount - Horn Frame*:*Défaut">
+<Transform>
+<Rotation>0.94558016451642424 0.31952298241701299 0.061507854623854955 0.064910561932095837 1.1085680368107365e-15 -0.99789108571509944 -0.31884913583503971 0.94757852640682882 -0.020740416338906442</Rotation>
+<Translation>-0.039184657444946223 0.045500396000057244 0.041570944943313363</Translation>
+</Transform>
+</Instance>
+<Instance name="Servo Bracket - U Shaped bis-1" uid="Servo Bracket - U Shaped bis-1" entityUid="Servo Bracket - U Shaped bis*:*Défaut">
+<Transform>
+<Rotation>0.94558016451642435 0.061507854623856634 -0.31952298241701232 0.064910561932097585 -0.99789108571509921 -1.1597084226573288e-15 -0.31884913583503904 -0.020740416338906911 -0.94757852640682894</Rotation>
+<Translation>-0.042899096140973182 0.095394950285812075 0.040712808707445078</Translation>
+</Transform>
+</Instance>
+<Instance name="Servo Bracket - U Shaped bis-2" uid="Servo Bracket - U Shaped bis-2" entityUid="Servo Bracket - U Shaped bis*:*Défaut">
+<Transform>
+<Rotation>-0.94558016451642424 -0.061507854623858896 -0.31952298241701238 -0.064910561932097655 0.99789108571509944 -8.1526544457597863e-15 0.31884913583503954 0.020740416338900305 -0.94757852640682905</Rotation>
+<Translation>-0.043268143268716294 0.10138229680010266 0.040837251205478514</Translation>
+</Transform>
+</Instance>
+<Instance name="Servo_con_Bracket-8" uid="Servo_con_Bracket-8" entityUid="Servo_con_Bracket" rigid="true">
+<Transform>
+<Rotation>0.043288713880572607 -0.31952298241701316 0.94658921975580457 -0.99895596341257797 -1.1085680365522425e-15 0.045683510837588225 -0.014596931630105033 -0.94757852640682882 -0.31918938873284763</Rotation>
+<Translation>-0.10093422806104278 0.14255040995386298 0.093337088481034017</Translation>
+</Transform>
+<Instance name="Servo_SG_5010.iam-1" uid="Servo_SG_5010.iam-1" entityUid="Servo_SG_5010.iam" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0019514963503807492 -0.019497064335900621 0.056735323315127997</Translation>
+</Transform>
+<Instance name="Servo.ipt-1" uid="Servo.ipt-1" grounded="true" entityUid="Servo.ipt*:*Predeterminado">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.0075544666960399576 0.0088191433809129832 0.0012646766848719918</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Servo Bracket - U Shaped-1" uid="Servo Bracket - U Shaped-1" grounded="true" entityUid="Servo Bracket - U Shaped*:*Défaut">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.019102970586645562 -0.0024329209549876912 0.057999999999999996</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Servo Mount - Horn Frame-8" uid="Servo Mount - Horn Frame-8" entityUid="Servo Mount - Horn Frame*:*Défaut">
+<Transform>
+<Rotation>-0.94558016451642435 0.31952298241701188 -0.061507854623858868 -0.064910561932097696 7.8925836591376396e-15 0.99789108571509921 0.31884913583503899 0.94757852640682916 0.020740416338900548</Rotation>
+<Translation>-0.045704490035075408 0.15127685108585759 0.043769429075237218</Translation>
+</Transform>
+</Instance>
+<Instance name="Superior rodamiento-1" uid="Superior rodamiento-1" entityUid="Superior rodamiento*:*Predeterminado">
+<Transform>
+<Rotation>-0.94757852640682882 3.4694469519533424e-15 0.3195229824170131 -3.2875734301786128e-15 -1 1.1085680374257466e-15 0.3195229824170131 0 0.94757852640682882</Rotation>
+<Translation>-0.0079424425145986528 0.028500395956339849 0.068499999999999991</Translation>
+</Transform>
+</Instance>
+<Instance name="Balinera-32" uid="Balinera-32" entityUid="Balinera*:*Predeterminado">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.048966972475414552 0.022500395956339687 0.11727185903883726</Translation>
+</Transform>
+</Instance>
+<Instance name="Servo Mount - Horn Frame-1" uid="Servo Mount - Horn Frame-1" entityUid="Servo Mount - Horn Frame*:*Défaut">
+<Transform>
+<Rotation>0.95838391886710239 3.4694469519533436e-15 -0.2854825109475802 3.3250621661145658e-15 -1 -9.904664274430722e-16 -0.2854825109475802 0 -0.95838391886710239</Rotation>
+<Translation>-0.0079424425145987274 0.031000395956339844 0.068499999999999991</Translation>
+</Transform>
+</Instance>
+<Instance name="Balinera-33" uid="Balinera-33" entityUid="Balinera*:*Predeterminado">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.05719480000182009 0.022500395956339687 0.10914679213075426</Translation>
+</Transform>
+</Instance>
+<Instance name="Balinera-34" uid="Balinera-34" entityUid="Balinera*:*Predeterminado">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.063839616237798422 0.022500395956339687 0.099683163056494009</Translation>
+</Transform>
+</Instance>
+<Instance name="Separadores-3" uid="Separadores-3" entityUid="Separadores*:*Predeterminado">
+<Transform>
+<Rotation>-0.83716910433122238 0 -0.54694413860398872 0 -1 0 -0.54694413860398872 0 0.83716910433122238</Rotation>
+<Translation>-0.037942442644859721 0.014500395956339802 0.03749999999999995</Translation>
+</Transform>
+</Instance>
+<Instance name="Servo_con_Bracket-9" uid="Servo_con_Bracket-9" entityUid="Servo_con_Bracket" rigid="true">
+<Transform>
+<Rotation>0.027917115428265329 0.94658921975580401 0.3212311997740302 -0.99780680041835401 0.045683510837591555 -0.047902044595601947 -0.060018528014708021 -0.31918938873284869 0.94578851252026641</Rotation>
+<Translation>-0.075410391614072592 0.21576554590044852 0.0082070402082613618</Translation>
+</Transform>
+<Instance name="Servo_SG_5010.iam-1" uid="Servo_SG_5010.iam-1" entityUid="Servo_SG_5010.iam" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.001951496350380777 -0.019497064335900635 0.056735323315128018</Translation>
+</Transform>
+<Instance name="Servo.ipt-1" uid="Servo.ipt-1" grounded="true" entityUid="Servo.ipt*:*Predeterminado">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.0075544666960400131 0.0088191433809129971 0.0012646766848719987</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Servo Bracket - U Shaped-1" uid="Servo Bracket - U Shaped-1" grounded="true" entityUid="Servo Bracket - U Shaped*:*Défaut">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.019102970586645562 -0.0024329209549876774 0.05800000000000001</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Separadores-1" uid="Separadores-1" entityUid="Separadores*:*Predeterminado">
+<Transform>
+<Rotation>-0.83716910433122238 0 -0.54694413860398872 0 -1 0 -0.54694413860398872 0 0.83716910433122238</Rotation>
+<Translation>0.022057557355140259 0.014500395956339802 0.097499999999999962</Translation>
+</Transform>
+</Instance>
+<Instance name="Servo_SG_5010.iam-1" uid="Servo_SG_5010.iam-1" entityUid="Servo_SG_5010.iam" rigid="true">
+<Transform>
+<Rotation>-3.4694469519533424e-15 -0.31952298241701299 -0.94757852640682882 1 -1.1085680368129141e-15 -3.2875734239831639e-15 0 -0.94757852640682882 0.31952298241701299</Rotation>
+<Translation>-0.01243786415612942 0.053054862696097195 0.084071832307120703</Translation>
+</Transform>
+<Instance name="Servo.ipt-1" uid="Servo.ipt-1" grounded="true" entityUid="Servo.ipt*:*Predeterminado">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.0075544666960399992 0.008819143380913011 0.0012646766848719987</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Base_Rodamiento-1" uid="Base_Rodamiento-1" entityUid="Base_Rodamiento*:*Predeterminado">
+<Transform>
+<Rotation>1.1102230246251565e-16 0 1 0 1 0 -1 0 1.1102230246251565e-16</Rotation>
+<Translation>-0.007942442644859736 0.014500395956339802 0.067499999999999949</Translation>
+</Transform>
+</Instance>
+<Instance name="Servo Bracket - U Shaped bis-5" uid="Servo Bracket - U Shaped bis-5" entityUid="Servo Bracket - U Shaped bis*:*Défaut">
+<Transform>
+<Rotation>0.31952298241701421 -0.043288713880575903 -0.94658921975580423 1.2051492841197894e-15 0.99895596341257786 -0.04568351083759168 0.94757852640682849 0.014596931630106143 0.31918938873284874</Rotation>
+<Translation>-0.074757891447381125 0.16699976551906562 0.080476919271871034</Translation>
+</Transform>
+</Instance>
+<Instance name="Servo Mount - Horn Frame-9" uid="Servo Mount - Horn Frame-9" entityUid="Servo Mount - Horn Frame*:*Défaut">
+<Transform>
+<Rotation>-0.043288713880578145 -0.94658921975580412 0.31952298241701388 0.99895596341257786 -0.045683510837591569 8.5964301719937733e-15 0.014596931630099098 0.31918938873284869 0.94757852640682849</Rotation>
+<Translation>-0.025806509274596452 0.21941447327492458 0.063970538861801568</Translation>
+</Transform>
+</Instance>
+<Instance name="Balinera-35" uid="Balinera-35" entityUid="Balinera*:*Predeterminado">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.068687851322151994 0.022500395956339687 0.089185140641203267</Translation>
+</Transform>
+</Instance>
+<Instance name="Base-1" uid="Base-1" entityUid="Base*:*Predeterminado">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.0079424426448597325 -0.025499604043660203 0.067500000000000004</Translation>
+</Transform>
+</Instance>
+<Instance name="Servo Bracket - U Shaped-1" uid="Servo Bracket - U Shaped-1" grounded="true" entityUid="Servo Bracket - U Shaped*:*Défaut">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.021442442644859706 -0.00075460404366015522 0.05800000000000001</Translation>
+</Transform>
+</Instance>
+<Instance name="Servo.ipt-1" uid="Servo.ipt-1" entityUid="Servo.ipt*:*Predeterminado">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.0079424425145984742 -0.0089996040436601098 0.05800000000000001</Translation>
+</Transform>
+</Instance>
+<Instance name="Separadores-2" uid="Separadores-2" entityUid="Separadores*:*Predeterminado">
+<Transform>
+<Rotation>-0.83716910433122238 0 -0.54694413860398872 0 -1 0 -0.54694413860398872 0 0.83716910433122238</Rotation>
+<Translation>-0.037942442644859707 0.014500395956339802 0.097499999999999948</Translation>
+</Transform>
+</Instance>
+<Instance name="Servo_con_Bracket-10" uid="Servo_con_Bracket-10" entityUid="Servo_con_Bracket" rigid="true">
+<Transform>
+<Rotation>0.038201652225302356 0.32123119977402914 -0.94622996679401095 -0.99725146350471516 -0.047902044595605514 -0.056523558462505952 -0.063483480567473313 0.94578851252026663 0.31851834684950386</Rotation>
+<Translation>0.0087617727384577924 0.28454790224158022 0.040914152531776896</Translation>
+</Transform>
+<Instance name="Servo_SG_5010.iam-1" uid="Servo_SG_5010.iam-1" entityUid="Servo_SG_5010.iam" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0019514963503807214 -0.019497064335900635 0.056735323315128032</Translation>
+</Transform>
+<Instance name="Servo.ipt-1" uid="Servo.ipt-1" grounded="true" entityUid="Servo.ipt*:*Predeterminado">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.0075544666960399853 0.0088191433809129971 0.0012646766848719987</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Servo Bracket - U Shaped-1" uid="Servo Bracket - U Shaped-1" grounded="true" entityUid="Servo Bracket - U Shaped*:*Défaut">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.019102970586645562 -0.0024329209549876843 0.058000000000000017</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Servo_con_Bracket-11" uid="Servo_con_Bracket-11" entityUid="Servo_con_Bracket" rigid="true">
+<Transform>
+<Rotation>0.32123119977402892 -0.038201652225302529 -0.94622996679401083 -0.047902044595605493 0.99725146350471516 -0.056523558462506118 0.94578851252026663 0.063483480567473313 0.31851834684950359</Rotation>
+<Translation>0.0060156508605815106 0.32668360094948029 0.043373027581537896</Translation>
+</Transform>
+<Instance name="Servo_SG_5010.iam-1" uid="Servo_SG_5010.iam-1" entityUid="Servo_SG_5010.iam" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.00195149635038077 -0.019497064335900649 0.056735323315127997</Translation>
+</Transform>
+<Instance name="Servo.ipt-1" uid="Servo.ipt-1" grounded="true" entityUid="Servo.ipt*:*Predeterminado">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.0075544666960400027 0.0088191433809130526 0.0012646766848720126</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Servo Bracket - U Shaped-1" uid="Servo Bracket - U Shaped-1" grounded="true" entityUid="Servo Bracket - U Shaped*:*Défaut">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.019102970586645573 -0.0024329209549876496 0.05800000000000001</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Servo Bracket - U Shaped bis-6" uid="Servo Bracket - U Shaped bis-6" entityUid="Servo Bracket - U Shaped bis*:*Défaut">
+<Transform>
+<Rotation>0.94658921975580423 -0.027917115428264114 0.32123119977402992 0.045683510837591423 0.99780680041835379 -0.047902044595605396 -0.31918938873284841 0.060018528014711234 0.94578851252026641</Rotation>
+<Translation>-0.044811537909046115 0.23487287721592184 0.089711491498315629</Translation>
+</Transform>
+</Instance>
+<Instance name="Servo Bracket - Long U-3" uid="Servo Bracket - Long U-3" entityUid="Servo Bracket - Long U*:*Défaut">
+<Transform>
+<Rotation>0.94129578594686902 -0.038201652225301273 0.33541448556364323 0.057237028245539529 0.99725146350471494 -0.047047222397537711 -0.33269530498082706 0.063483480567476769 0.94089514917378203</Rotation>
+<Translation>-0.056857592576770165 0.35163943244603951 0.075396756650084745</Translation>
+</Transform>
+</Instance>
+<Instance name="Servo Mount - Horn Frame-10" uid="Servo Mount - Horn Frame-10" entityUid="Servo Mount - Horn Frame*:*Défaut">
+<Transform>
+<Rotation>0.94658921975580435 -0.32123119977402909 -0.027917115428263077 0.045683510837590251 0.047902044595605493 0.99780680041835368 -0.31918938873284775 -0.94578851252026652 0.060018528014710998</Rotation>
+<Translation>-0.046849856080006295 0.28485902132603103 0.090820840874010475</Translation>
+</Transform>
+</Instance>
+<Instance name="Servo Mount - Horn Frame-11" uid="Servo Mount - Horn Frame-11" entityUid="Servo Mount - Horn Frame*:*Défaut">
+<Transform>
+<Rotation>-0.33541448556364245 0.038201652225302418 -0.94129578594686902 0.047047222397534304 -0.99725146350471505 -0.057237028245539487 -0.94089514917378225 -0.063483480567473494 0.33269530498082645</Rotation>
+<Translation>-0.061721102617443013 0.35232161717080379 0.061753776987064822</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Tangent name="Tangente1">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Servo Bracket - U Shaped-1</Uid>
+</InstancePath>
+<Position>0.008499999999999867 0.010755000000000028 0.025000000000000008</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Servo.ipt-1</Uid>
+</InstancePath>
+<Position>-0.0049999999999999992 0.023 0.025499999999999995</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Tangent>
+<Tangent name="Tangente3">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Servo Bracket - U Shaped-1</Uid>
+</InstancePath>
+<Position>0.018499999999999867 0.010755000000000063 0.025000000000000008</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Servo.ipt-1</Uid>
+</InstancePath>
+<Position>0.0050000000000000001 0.023 0.025499999999999995</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Tangent>
+<Tangent name="Tangente4">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Servo Bracket - U Shaped-1</Uid>
+</InstancePath>
+<Position>0.018499999999999867 0.010755000000000063 -0.025000000000000008</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Servo.ipt-1</Uid>
+</InstancePath>
+<Position>0.0050000000000000001 0.023 -0.025499999999999995</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Tangent>
+<Coincident name="Coincidente2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Servo Bracket - U Shaped-1</Uid>
+</InstancePath>
+<Position>0 -0.019744999999999999 0</Position>
+<Axis>-3.469446951953615e-15 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base-1</Uid>
+</InstancePath>
+<Position>0 0.005000000000000001 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concéntrica1">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Servo Bracket - U Shaped-1</Uid>
+</InstancePath>
+<Position>0.013499999999999967 -0.019745000000000047 0.016500000000000001</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Base-1</Uid>
+</InstancePath>
+<Position>0 0 0.0070000000000000062</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concéntrica2">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Servo Bracket - U Shaped-1</Uid>
+</InstancePath>
+<Position>0.013499999999999969 -0.019745000000000047 0.0094999999999999946</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Base-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincidente3">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Balinera-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Balinera-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincidente4">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Balinera-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Balinera-3</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincidente5">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Balinera-3</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Balinera-4</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincidente6">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Balinera-4</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Balinera-5</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincidente7">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Balinera-5</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Balinera-6</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincidente8">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Balinera-6</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Balinera-7</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincidente9">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Balinera-7</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Balinera-8</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincidente12">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Balinera-10</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Balinera-11</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincidente13">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Balinera-11</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Balinera-12</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincidente14">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Balinera-12</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Balinera-13</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincidente15">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Balinera-13</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Balinera-14</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincidente16">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Balinera-14</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Balinera-15</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincidente17">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Balinera-15</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Balinera-16</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincidente18">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Balinera-16</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Balinera-17</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincidente19">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Balinera-17</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Balinera-18</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincidente20">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Balinera-18</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Balinera-19</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincidente21">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Balinera-19</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Balinera-20</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincidente22">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Balinera-20</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Balinera-21</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincidente23">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Balinera-21</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Balinera-22</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincidente24">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Balinera-22</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Balinera-23</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincidente25">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Balinera-23</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Balinera-25</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincidente26">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Balinera-25</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Balinera-26</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincidente27">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Balinera-26</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Balinera-27</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincidente28">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Balinera-27</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Balinera-28</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincidente29">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Balinera-28</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Balinera-29</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincidente30">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Balinera-29</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Balinera-30</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincidente31">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Balinera-30</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Balinera-31</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincidente32">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Balinera-31</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Balinera-32</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincidente33">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Balinera-32</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Balinera-33</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincidente34">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Balinera-33</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Balinera-34</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincidente35">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Balinera-34</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Balinera-35</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincidente36">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Balinera-23</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Balinera-24</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Tangent name="Tangente5">
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Balinera-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>rodamiento-1</Uid>
+</InstancePath>
+<Position>0.046620268716867169 0.0034999999999999996 0.044573540859652372</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Tangent>
+<Concentric name="Concéntrica3">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Base-1</Uid>
+</InstancePath>
+<Position>0 0.005000000000000001 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>rodamiento-1</Uid>
+</InstancePath>
+<Position>0 -0.0015000000000000013 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincidente37">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Balinera-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>rodamiento-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Tangent name="Tangente6">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>rodamiento-1</Uid>
+</InstancePath>
+<Position>0.037912148772865001 0.0034999999999999996 0.052181596137183817</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Balinera-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+</Tangent>
+<Tangent name="Tangente7">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>rodamiento-1</Uid>
+</InstancePath>
+<Position>0.053829974865024388 0.0034999999999999996 0.03553285530366012</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Balinera-35</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+</Tangent>
+<Tangent name="Tangente8">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>rodamiento-1</Uid>
+</InstancePath>
+<Position>0.059309541329568838 0.0034999999999999996 0.025350114541677529</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Balinera-34</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+</Tangent>
+<Tangent name="Tangente9">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>rodamiento-1</Uid>
+</InstancePath>
+<Position>0.062882850335727783 0.0034999999999999996 0.014352600240181625</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Balinera-33</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+</Tangent>
+<Tangent name="Tangente10">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>rodamiento-1</Uid>
+</InstancePath>
+<Position>0.064435052791914846 0.0034999999999999996 0.0028937815576075346</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Balinera-32</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+</Tangent>
+<Tangent name="Tangente11">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>rodamiento-1</Uid>
+</InstancePath>
+<Position>0.063916259634031719 0.0034999999999999996 -0.0086580456452395108</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Balinera-31</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+</Tangent>
+<Tangent name="Tangente12">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>rodamiento-1</Uid>
+</InstancePath>
+<Position>0.061343145301037211 0.0034999999999999996 -0.019931596137184808</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Balinera-30</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+</Tangent>
+<Tangent name="Tangente13">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>rodamiento-1</Uid>
+</InstancePath>
+<Position>0.056798411804759266 0.0034999999999999996 -0.030564528729509134</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Balinera-29</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+</Tangent>
+<Tangent name="Tangente14">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>rodamiento-1</Uid>
+</InstancePath>
+<Position>0.050428130619187453 0.0034999999999999996 -0.040215092219888955</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Balinera-28</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+</Tangent>
+<Tangent name="Tangente15">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>rodamiento-1</Uid>
+</InstancePath>
+<Position>0.042437047823110863 0.0034999999999999996 -0.048573109557233506</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Balinera-27</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+</Tangent>
+<Tangent name="Tangente16">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>rodamiento-1</Uid>
+</InstancePath>
+<Position>0.03308200339268022 0.0034999999999999996 -0.055369947187320821</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Balinera-26</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+</Tangent>
+<Tangent name="Tangente17">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>rodamiento-1</Uid>
+</InstancePath>
+<Position>0.027985501173083002 0.0034999999999999996 0.058112491979705833</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Balinera-3</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+</Tangent>
+<Tangent name="Tangente18">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>rodamiento-1</Uid>
+</InstancePath>
+<Position>0.01715937653905103 0.0034999999999999996 0.062175604514882438</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Balinera-4</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+</Tangent>
+<Tangent name="Tangente19">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>rodamiento-1</Uid>
+</InstancePath>
+<Position>0.0057817354242719471 0.0034999999999999996 0.064240341962692904</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Balinera-5</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+</Tangent>
+<Tangent name="Tangente20">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>rodamiento-1</Uid>
+</InstancePath>
+<Position>-0.0057817354242710173 0.0034999999999999996 0.064240341962692987</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Balinera-6</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+</Tangent>
+<Tangent name="Tangente21">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>rodamiento-1</Uid>
+</InstancePath>
+<Position>-0.017159376539050149 0.0034999999999999996 0.062175604514882687</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Balinera-7</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+</Tangent>
+<Tangent name="Tangente22">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>rodamiento-1</Uid>
+</InstancePath>
+<Position>-0.027985501173082163 0.0034999999999999996 0.058112491979706235</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Balinera-8</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+</Tangent>
+<Tangent name="Tangente24">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>rodamiento-1</Uid>
+</InstancePath>
+<Position>0.022663676153245826 0.0034999999999999996 -0.060387149156263385</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Balinera-25</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+</Tangent>
+<Tangent name="Tangente25">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>rodamiento-1</Uid>
+</InstancePath>
+<Position>0.011516919714511187 0.0034999999999999996 -0.063463458464611794</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Balinera-24</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+</Tangent>
+<Tangent name="Tangente26">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>rodamiento-1</Uid>
+</InstancePath>
+<Position>0 0.0034999999999999996 -0.06450000000000003</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Balinera-23</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+</Tangent>
+<Tangent name="Tangente27">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>rodamiento-1</Uid>
+</InstancePath>
+<Position>-0.046620268716866552 0.0034999999999999996 0.044573540859653045</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Balinera-10</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+</Tangent>
+<Tangent name="Tangente28">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>rodamiento-1</Uid>
+</InstancePath>
+<Position>-0.053829974865023889 0.0034999999999999996 0.03553285530366089</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Balinera-11</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+</Tangent>
+<Tangent name="Tangente29">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>rodamiento-1</Uid>
+</InstancePath>
+<Position>-0.059309541329568491 0.0034999999999999996 0.025350114541678365</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Balinera-12</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+</Tangent>
+<Tangent name="Tangente30">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>rodamiento-1</Uid>
+</InstancePath>
+<Position>-0.01151691971451211 0.0034999999999999996 -0.063463458464611655</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Balinera-22</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+</Tangent>
+<Tangent name="Tangente31">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>rodamiento-1</Uid>
+</InstancePath>
+<Position>-0.022663676153246673 0.0034999999999999996 -0.060387149156263066</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Balinera-21</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+</Tangent>
+<Tangent name="Tangente32">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>rodamiento-1</Uid>
+</InstancePath>
+<Position>-0.033082003392681039 0.0034999999999999996 -0.055369947187320363</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Balinera-20</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+</Tangent>
+<Tangent name="Tangente33">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>rodamiento-1</Uid>
+</InstancePath>
+<Position>-0.042437047823111577 0.0034999999999999996 -0.048573109557232853</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Balinera-19</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+</Tangent>
+<Tangent name="Tangente34">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>rodamiento-1</Uid>
+</InstancePath>
+<Position>-0.050428130619188036 0.0034999999999999996 -0.04021509221988822</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Balinera-18</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+</Tangent>
+<Tangent name="Tangente35">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>rodamiento-1</Uid>
+</InstancePath>
+<Position>-0.056798411804759717 0.0034999999999999996 -0.030564528729508302</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Balinera-17</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+</Tangent>
+<Tangent name="Tangente36">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>rodamiento-1</Uid>
+</InstancePath>
+<Position>-0.061343145301037516 0.0034999999999999996 -0.019931596137183948</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Balinera-16</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+</Tangent>
+<Tangent name="Tangente37">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>rodamiento-1</Uid>
+</InstancePath>
+<Position>-0.063916259634031872 0.0034999999999999996 -0.008658045645238574</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Balinera-13</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+</Tangent>
+<Tangent name="Tangente38">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>rodamiento-1</Uid>
+</InstancePath>
+<Position>-0.064435052791914832 0.0034999999999999996 0.0028937815576084505</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Balinera-14</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+</Tangent>
+<Tangent name="Tangente39">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>rodamiento-1</Uid>
+</InstancePath>
+<Position>-0.062882850335727603 0.0034999999999999996 0.014352600240182548</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Balinera-15</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+</Tangent>
+<Coincident name="Coincidente38">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Servo.ipt-1</Uid>
+</InstancePath>
+<Position>0 0.037999999999999999 0.010499999999999995</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Servo Mount - Horn Frame-1</Uid>
+</InstancePath>
+<Position>0 0.0019999999999999983 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concéntrica4">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Servo.ipt-1</Uid>
+</InstancePath>
+<Position>0 0.033000000000000002 0.010499999999999995</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Servo Mount - Horn Frame-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincidente39">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base-1</Uid>
+</InstancePath>
+<Position>0 0.005000000000000001 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Separadores-4</Uid>
+</InstancePath>
+<Position>0 0.035000000000000003 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincidente40">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base-1</Uid>
+</InstancePath>
+<Position>0 0.005000000000000001 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Separadores-3</Uid>
+</InstancePath>
+<Position>0 0.035000000000000003 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincidente41">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base-1</Uid>
+</InstancePath>
+<Position>0 0.005000000000000001 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Separadores-2</Uid>
+</InstancePath>
+<Position>0 0.035000000000000003 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincidente42">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base-1</Uid>
+</InstancePath>
+<Position>0 0.005000000000000001 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Separadores-1</Uid>
+</InstancePath>
+<Position>0 0.035000000000000003 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concéntrica5">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Base-1</Uid>
+</InstancePath>
+<Position>0.029999999999999999 0 0.029999999999999999</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Separadores-1</Uid>
+</InstancePath>
+<Position>0 0.035000000000000003 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concéntrica6">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Base-1</Uid>
+</InstancePath>
+<Position>0.029999999999999999 0 -0.029999999999999999</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Separadores-4</Uid>
+</InstancePath>
+<Position>0 0.035000000000000003 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concéntrica7">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Base-1</Uid>
+</InstancePath>
+<Position>-0.029999999999999995 0 -0.029999999999999999</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Separadores-3</Uid>
+</InstancePath>
+<Position>0 0.035000000000000003 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concéntrica8">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Base-1</Uid>
+</InstancePath>
+<Position>-0.029999999999999995 0 0.029999999999999999</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Separadores-2</Uid>
+</InstancePath>
+<Position>0 0.035000000000000003 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincidente43">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base_Rodamiento-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Separadores-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concéntrica11">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Base_Rodamiento-1</Uid>
+</InstancePath>
+<Position>0.029999999999999999 0 0.030000000000000002</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Separadores-4</Uid>
+</InstancePath>
+<Position>0 0.035000000000000003 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concéntrica12">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Base_Rodamiento-1</Uid>
+</InstancePath>
+<Position>-0.029999999999999999 0 0.030000000000000002</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Separadores-1</Uid>
+</InstancePath>
+<Position>0 0.035000000000000003 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concéntrica16">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Servo Mount - Horn Frame-1</Uid>
+</InstancePath>
+<Position>0 0.0019999999999999983 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Superior rodamiento-1</Uid>
+</InstancePath>
+<Position>0 -0.0024999999999999988 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincidente47">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Servo Mount - Horn Frame-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Superior rodamiento-1</Uid>
+</InstancePath>
+<Position>0 -0.0024999999999999988 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincidente53">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Servo Mount - Horn Frame-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Servo Bracket - U Shaped-2</Uid>
+</InstancePath>
+<Position>-0.0010000000000000044 0 0</Position>
+<Axis>-1 -1.637880304108254e-16 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concéntrica21">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Servo Mount - Horn Frame-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Servo Bracket - U Shaped-2</Uid>
+</InstancePath>
+<Position>-0.0010000000000000044 -0.0037449999999999983 -0.010500000000000013</Position>
+<Axis>1 1.637880304108254e-16 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Tangent name="Tangente45">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Servo Mount - Horn Frame-1</Uid>
+</InstancePath>
+<Position>0 0.0019999999999999983 0.0070000000000000062</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Servo Bracket - U Shaped-2</Uid>
+</InstancePath>
+<Position>0.00099999999999999395 0.003254999999999994 -0.010500000000000002</Position>
+<Axis>1 1.637880304108254e-16 0</Axis>
+</ConstraintGeometry>
+</Tangent>
+<Concentric name="Concéntrica25">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Superior rodamiento-1</Uid>
+</InstancePath>
+<Position>-0.014500000000000009 -0.0024999999999999988 -0.00050000000000000044</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Servo Bracket - U Shaped-2</Uid>
+</InstancePath>
+<Position>0.00099999999999999395 -0.0032450000000000048 -0.025000000000000012</Position>
+<Axis>1 1.637880304108254e-16 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincidente55">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Servo Bracket - U Shaped-2</Uid>
+</InstancePath>
+<Position>0 0.012755000000000002 0</Position>
+<Axis>-3.3723790552342049e-15 1 -1.6653345369377348e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Servo_SG_5010.iam-1</Uid>
+<Uid>Servo.ipt-1</Uid>
+</InstancePath>
+<Position>0 0.020999999999999984 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Parallel name="Paralelo6">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Servo Bracket - U Shaped-2</Uid>
+</InstancePath>
+<Position>0.0010000000000000009 0 0</Position>
+<Axis>1 1.637880304108254e-16 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Servo_SG_5010.iam-1</Uid>
+<Uid>Servo.ipt-1</Uid>
+</InstancePath>
+<Position>-0.009999999999999995 0 -0.020500000000000001</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Tangent name="Tangente50">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Servo Bracket - U Shaped-2</Uid>
+</InstancePath>
+<Position>0.0084999999999998757 0.010755000000000021 -0.025000000000000005</Position>
+<Axis>-1.637880304108254e-16 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Servo_SG_5010.iam-1</Uid>
+<Uid>Servo.ipt-1</Uid>
+</InstancePath>
+<Position>-0.0049999999999999975 0.022999999999999993 -0.025499999999999995</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Tangent>
+<Tangent name="Tangente51">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Servo Bracket - U Shaped-2</Uid>
+</InstancePath>
+<Position>0.018499999999999864 0.01075500000000007 0.025000000000000008</Position>
+<Axis>-1.637880304108254e-16 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Servo_SG_5010.iam-1</Uid>
+<Uid>Servo.ipt-1</Uid>
+</InstancePath>
+<Position>0.0050000000000000044 0.022999999999999993 0.025500000000000009</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Tangent>
+<Tangent name="Tangente52">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Servo Bracket - U Shaped-2</Uid>
+</InstancePath>
+<Position>0.0084999999999998688 0.010755000000000021 0.025000000000000008</Position>
+<Axis>-1.637880304108254e-16 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Servo_SG_5010.iam-1</Uid>
+<Uid>Servo.ipt-1</Uid>
+</InstancePath>
+<Position>-0.0049999999999999975 0.022999999999999986 0.025499999999999995</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Tangent>
+<Coincident name="Coincidente56">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Servo_SG_5010.iam-1</Uid>
+<Uid>Servo.ipt-1</Uid>
+</InstancePath>
+<Position>0 0.037999999999999992 0.010500000000000002</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Servo Mount - Horn Frame-2</Uid>
+</InstancePath>
+<Position>0 0.0020000000000000018 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concéntrica32">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Servo_SG_5010.iam-1</Uid>
+<Uid>Servo.ipt-1</Uid>
+</InstancePath>
+<Position>0 0.033000000000000002 0.010500000000000002</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Servo Mount - Horn Frame-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concéntrica33">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Servo Mount - Horn Frame-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Servo Bracket - U Shaped bis-1</Uid>
+</InstancePath>
+<Position>0 0.050000000000000003 -0.056000000000000431</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincidente57">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Servo Mount - Horn Frame-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Servo Bracket - U Shaped bis-1</Uid>
+</InstancePath>
+<Position>0 0.050000000000000003 -0.0020000000000000018</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concéntrica34">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Servo Mount - Horn Frame-2</Uid>
+</InstancePath>
+<Position>0 0.0020000000000000052 0.0070000000000000132</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Servo Bracket - U Shaped bis-1</Uid>
+</InstancePath>
+<Position>0 0.057000000000000002 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincidente58">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Servo Bracket - U Shaped bis-1</Uid>
+</InstancePath>
+<Position>0 -0.0030000000000000027 0</Position>
+<Axis>0 -1.0000000000000002 3.5006719745211967e-15</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Servo Bracket - U Shaped bis-2</Uid>
+</InstancePath>
+<Position>0 -0.0029999999999999888 0</Position>
+<Axis>0 -1.0000000000000004 3.479855292809475e-15</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concéntrica35">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Servo Bracket - U Shaped bis-1</Uid>
+</InstancePath>
+<Position>0 -0.0030000000000002941 -0.02799999999999999</Position>
+<Axis>0 1.0000000000000002 -3.5006719745211967e-15</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Servo Bracket - U Shaped bis-2</Uid>
+</InstancePath>
+<Position>0 -0.0030000000000002941 -0.028000000000000011</Position>
+<Axis>0 1.0000000000000004 -3.479855292809475e-15</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concéntrica36">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Servo Bracket - U Shaped bis-1</Uid>
+</InstancePath>
+<Position>0 -0.0010000000000000148 -0.0093999999999999986</Position>
+<Axis>0 1.0000000000000002 -3.5006719745211967e-15</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Servo Bracket - U Shaped bis-2</Uid>
+</InstancePath>
+<Position>0 -0.0010000000000000148 -0.0094000000000000056</Position>
+<Axis>0 1.0000000000000004 -3.479855292809475e-15</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincidente59">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Servo_con_Bracket-8</Uid>
+<Uid>Servo_SG_5010.iam-1</Uid>
+<Uid>Servo.ipt-1</Uid>
+</InstancePath>
+<Position>0 0.038000000000000013 0.010500000000000002</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Servo Mount - Horn Frame-8</Uid>
+</InstancePath>
+<Position>0 0.0019999999999999948 0</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concéntrica37">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Servo_con_Bracket-8</Uid>
+<Uid>Servo_SG_5010.iam-1</Uid>
+<Uid>Servo.ipt-1</Uid>
+</InstancePath>
+<Position>0 0.033000000000000015 0.010500000000000002</Position>
+<Axis>0 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Servo Mount - Horn Frame-8</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincidente62">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Servo Bracket - U Shaped bis-2</Uid>
+</InstancePath>
+<Position>0 0.050000000000000058 -0.0020000000000000018</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Servo Mount - Horn Frame-8</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concéntrica38">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Servo Bracket - U Shaped bis-2</Uid>
+</InstancePath>
+<Position>0 0.050000000000000058 -0.056000000000000452</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Servo Mount - Horn Frame-8</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concéntrica39">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Servo Bracket - U Shaped bis-2</Uid>
+</InstancePath>
+<Position>0 0.057000000000000037 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Servo Mount - Horn Frame-8</Uid>
+</InstancePath>
+<Position>0 0.0019999999999999948 0.0069999999999999785</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Parallel name="Paralelo8">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Base_Rodamiento-1</Uid>
+</InstancePath>
+<Position>0 0.005000000000000001 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Superior rodamiento-1</Uid>
+</InstancePath>
+<Position>0 0.0024999999999999988 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Coincident name="Coincidente63">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Servo Bracket - U Shaped-1</Uid>
+</InstancePath>
+<Position>0 0.012754999999999999 0</Position>
+<Axis>-3.469446951953615e-15 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Servo.ipt-1</Uid>
+</InstancePath>
+<Position>0 0.021000000000000001 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincidente64">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Servo_con_Bracket-8</Uid>
+<Uid>Servo Bracket - U Shaped-1</Uid>
+</InstancePath>
+<Position>-0.0010000000000000009 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Servo Bracket - U Shaped bis-5</Uid>
+</InstancePath>
+<Position>0 -0.0029999999999999749 0</Position>
+<Axis>0 -1.0000000000000002 3.4685795902156258e-15</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concéntrica41">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Servo_con_Bracket-8</Uid>
+<Uid>Servo Bracket - U Shaped-1</Uid>
+</InstancePath>
+<Position>-0.0010000000000000009 0.0062549999999999967 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Servo Bracket - U Shaped bis-5</Uid>
+</InstancePath>
+<Position>0 -0.0030000000000002802 -0.027999999999999997</Position>
+<Axis>0 1.0000000000000002 -3.4685795902156258e-15</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concéntrica42">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Servo_con_Bracket-8</Uid>
+<Uid>Servo Bracket - U Shaped-1</Uid>
+</InstancePath>
+<Position>0.00099999999999997313 -0.00074499999999998873 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Servo Bracket - U Shaped bis-5</Uid>
+</InstancePath>
+<Position>0.0069999999999999993 -0.0010000000000000842 -0.028000000000000011</Position>
+<Axis>0 1.0000000000000002 -3.4685795902156258e-15</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincidente66">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Servo_con_Bracket-9</Uid>
+<Uid>Servo_SG_5010.iam-1</Uid>
+<Uid>Servo.ipt-1</Uid>
+</InstancePath>
+<Position>0 0.037999999999999992 0.010500000000000002</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Servo Mount - Horn Frame-9</Uid>
+</InstancePath>
+<Position>0 0.0020000000000000018 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concéntrica43">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Servo_con_Bracket-9</Uid>
+<Uid>Servo_SG_5010.iam-1</Uid>
+<Uid>Servo.ipt-1</Uid>
+</InstancePath>
+<Position>0 0.033000000000000002 0.010500000000000002</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Servo Mount - Horn Frame-9</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincidente67">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Servo Bracket - U Shaped bis-5</Uid>
+</InstancePath>
+<Position>0 -3.6082248300317588e-16 -0.05400000000000002</Position>
+<Axis>0 7.0178238220641731e-15 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Servo Mount - Horn Frame-9</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concéntrica44">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Servo Bracket - U Shaped bis-5</Uid>
+</InstancePath>
+<Position>0 0.049999999999999989 -0.056000000000000459</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Servo Mount - Horn Frame-9</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concéntrica45">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Servo Bracket - U Shaped bis-5</Uid>
+</InstancePath>
+<Position>0.0069999999999999854 0.050000000000000017 0</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Servo Mount - Horn Frame-9</Uid>
+</InstancePath>
+<Position>0 0.0020000000000000018 0.0069999999999999993</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincidente68">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Servo_con_Bracket-9</Uid>
+<Uid>Servo Bracket - U Shaped-1</Uid>
+</InstancePath>
+<Position>-0.0010000000000000286 0 0</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Servo Bracket - U Shaped bis-6</Uid>
+</InstancePath>
+<Position>0 -0.0029999999999999749 0</Position>
+<Axis>0 -1.0000000000000002 3.5041414214731503e-15</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concéntrica46">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Servo_con_Bracket-9</Uid>
+<Uid>Servo Bracket - U Shaped-1</Uid>
+</InstancePath>
+<Position>-0.0010000000000000009 0.0062549999999999828 0</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Servo Bracket - U Shaped bis-6</Uid>
+</InstancePath>
+<Position>0 -0.0030000000000002802 -0.027999999999999997</Position>
+<Axis>0 1.0000000000000002 -3.5041414214731503e-15</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concéntrica47">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Servo_con_Bracket-9</Uid>
+<Uid>Servo Bracket - U Shaped-1</Uid>
+</InstancePath>
+<Position>0.0010000000000000009 0.0062549999999999759 0.0069999999999999993</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Servo Bracket - U Shaped bis-6</Uid>
+</InstancePath>
+<Position>0 -0.0010000000000000286 -0.021000000000000005</Position>
+<Axis>0 1.0000000000000002 -3.5041414214731503e-15</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincidente69">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Servo Mount - Horn Frame-10</Uid>
+</InstancePath>
+<Position>0 0.0019999999999999948 0</Position>
+<Axis>1.6653345369377348e-16 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Servo_con_Bracket-10</Uid>
+<Uid>Servo_SG_5010.iam-1</Uid>
+<Uid>Servo.ipt-1</Uid>
+</InstancePath>
+<Position>0 0.038000000000000013 0.010500000000000009</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concéntrica48">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Servo Mount - Horn Frame-10</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1.6653345369377348e-16 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Servo_con_Bracket-10</Uid>
+<Uid>Servo_SG_5010.iam-1</Uid>
+<Uid>Servo.ipt-1</Uid>
+</InstancePath>
+<Position>0 0.033000000000000002 0.010500000000000009</Position>
+<Axis>0 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincidente70">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Servo Bracket - U Shaped bis-6</Uid>
+</InstancePath>
+<Position>0 0.050000000000000017 -0.0020000000000000157</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Servo Mount - Horn Frame-10</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>-1.6653345369377348e-16 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concéntrica49">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Servo Bracket - U Shaped bis-6</Uid>
+</InstancePath>
+<Position>0 0.050000000000000017 -0.056000000000000459</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Servo Mount - Horn Frame-10</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1.6653345369377348e-16 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concéntrica50">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Servo Bracket - U Shaped bis-6</Uid>
+</InstancePath>
+<Position>0 0.057000000000000078 0</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Servo Mount - Horn Frame-10</Uid>
+</InstancePath>
+<Position>0 0.0019999999999999948 0.0070000000000000062</Position>
+<Axis>1.6653345369377348e-16 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincidente71">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Servo_con_Bracket-11</Uid>
+<Uid>Servo_SG_5010.iam-1</Uid>
+<Uid>Servo.ipt-1</Uid>
+</InstancePath>
+<Position>0 0.038000000000000034 0.010499999999999995</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Servo Mount - Horn Frame-11</Uid>
+</InstancePath>
+<Position>0 0.0020000000000000018 0</Position>
+<Axis>0 0.99999999999999989 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concéntrica51">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Servo_con_Bracket-11</Uid>
+<Uid>Servo_SG_5010.iam-1</Uid>
+<Uid>Servo.ipt-1</Uid>
+</InstancePath>
+<Position>0 0.033000000000000029 0.010499999999999982</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Servo Mount - Horn Frame-11</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0.99999999999999989 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincidente72">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Servo_con_Bracket-10</Uid>
+<Uid>Servo Bracket - U Shaped-1</Uid>
+</InstancePath>
+<Position>-0.0010000000000000564 0 0</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Servo_con_Bracket-11</Uid>
+<Uid>Servo Bracket - U Shaped-1</Uid>
+</InstancePath>
+<Position>0 -0.019745000000000013 0</Position>
+<Axis>-3.4555691641457997e-15 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concéntrica52">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Servo_con_Bracket-10</Uid>
+<Uid>Servo Bracket - U Shaped-1</Uid>
+</InstancePath>
+<Position>0.00099999999999994538 -0.0037450000000000053 0.0035000000000000031</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Servo_con_Bracket-11</Uid>
+<Uid>Servo Bracket - U Shaped-1</Uid>
+</InstancePath>
+<Position>0.01349999999999997 -0.019745000000000068 0.0024999999999999953</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concéntrica53">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Servo_con_Bracket-10</Uid>
+<Uid>Servo Bracket - U Shaped-1</Uid>
+</InstancePath>
+<Position>0.00099999999999994538 -0.0037450000000000053 0.017500000000000016</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Servo_con_Bracket-11</Uid>
+<Uid>Servo Bracket - U Shaped-1</Uid>
+</InstancePath>
+<Position>0.01349999999999997 -0.019745000000000068 0.016499999999999987</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincidente73">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Servo Mount - Horn Frame-11</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -0.99999999999999989 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Servo Bracket - Long U-3</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 3.462508058049707e-15</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concéntrica54">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Servo Mount - Horn Frame-11</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0.99999999999999989 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Servo Bracket - Long U-3</Uid>
+</InstancePath>
+<Position>0 -1.6653345369377348e-16 -0.014500000000000096</Position>
+<Axis>0 1 -3.462508058049707e-15</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concéntrica56">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Servo Mount - Horn Frame-11</Uid>
+</InstancePath>
+<Position>0.0070000000000000062 0.0020000000000000018 0</Position>
+<Axis>0 0.99999999999999989 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Servo Bracket - Long U-3</Uid>
+</InstancePath>
+<Position>0 0.0019999999999999463 -0.021500000000000102</Position>
+<Axis>0 1 -3.462508058049707e-15</Axis>
+</ConstraintGeometry>
+</Concentric>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+<Assembly name="Servo_con_Bracket" uid="Servo_con_Bracket" version="134">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="Servo_con_Bracket.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="Servo_SG_5010.iam" uid="Servo_SG_5010.iam" version="103">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="Servo_SG_5010.iam.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+</Assemblies>
+<Parts>
+<Part name="Balinera" uid="Balinera*:*Predeterminado" version="108">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Balinera.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0003817035074111598</Mass>
+<CenterOfMass>0 0 0</CenterOfMass>
+<Inertia>3.0917984100303941e-09 3.0917984100303941e-09 3.0917984100303941e-09 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Balinera_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Base" uid="Base*:*Predeterminado" version="129">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Base.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.088039207126036981</Mass>
+<CenterOfMass>0 0.0025000000000000005 0</CenterOfMass>
+<Inertia>0.00012430498180169289 0.00024824313357369392 0.00012430498180169286 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Base_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Base_Rodamiento" uid="Base_Rodamiento*:*Predeterminado" version="227">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Base_Rodamiento.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.078260163729000742</Mass>
+<CenterOfMass>-0.00086567171838950743 0.0024317710887573549 0</CenterOfMass>
+<Inertia>0.00011780438278299654 0.00023396287032089838 0.00011647454431568764 0 0 4.6223456980242718e-09</Inertia>
+</MassProperties>
+<GeometryFile name="Base_Rodamiento_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Separadores" uid="Separadores*:*Predeterminado" version="108">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Separadores.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00043982297150257108</Mass>
+<CenterOfMass>0 0.017500000000000005 0</CenterOfMass>
+<Inertia>4.5833218821997129e-08 1.8692476288859274e-09 4.5833218821997129e-08 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Separadores_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Servo Bracket - Long U" uid="Servo Bracket - Long U*:*Défaut" version="711">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Servo Bracket - Long U.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.047636840620092248</Mass>
+<CenterOfMass>0 0.016349234288921311 -0.014500000000000032</CenterOfMass>
+<Inertia>1.5739572356706426e-05 3.8852333619845156e-05 3.9973934425733681e-05 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Servo Bracket - Long U_Défaut_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Diffuse r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Specular r="0.44901960784313727" g="0.45882352941176469" b="0.46470588235294119" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Servo Bracket - U Shaped bis" uid="Servo Bracket - U Shaped bis*:*Défaut" version="628">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Servo Bracket - U Shaped bis.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0082398450699204175</Mass>
+<CenterOfMass>0 0.019129283264324302 -0.028000000000000164</CenterOfMass>
+<Inertia>8.1886630060801402e-06 5.2601673550033935e-06 3.808157938996012e-06 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Servo Bracket - U Shaped bis_Défaut_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89411764705882346" g="0.9137254901960784" b="0.92941176470588238" a="1"/>
+<Diffuse r="0.89411764705882346" g="0.9137254901960784" b="0.92941176470588238" a="1"/>
+<Specular r="0.44705882352941173" g="0.4568627450980392" b="0.46470588235294119" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Servo Bracket - U Shaped" uid="Servo Bracket - U Shaped*:*Défaut" version="794">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Servo Bracket - U Shaped.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.01493094651541625</Mass>
+<CenterOfMass>0.0064236903713059635 -0.0048275726353782236 0</CenterOfMass>
+<Inertia>6.2133690903017436e-06 4.8478806692855237e-06 3.610684877121748e-06 0 0 5.1861184627585024e-07</Inertia>
+</MassProperties>
+<GeometryFile name="Servo Bracket - U Shaped_Défaut_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Diffuse r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Specular r="0.44901960784313727" g="0.45882352941176469" b="0.46470588235294119" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Servo Mount - Horn Frame" uid="Servo Mount - Horn Frame*:*Défaut" version="611">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Servo Mount - Horn Frame.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.001806894707528873</Mass>
+<CenterOfMass>0 0.0014050618937066798 0</CenterOfMass>
+<Inertia>4.3664356734664618e-08 8.2262563968529993e-08 4.3664356734664618e-08 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Servo Mount - Horn Frame_Défaut_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Diffuse r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Specular r="0.44901960784313727" g="0.45882352941176469" b="0.46470588235294119" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Servo.ipt" uid="Servo.ipt*:*Predeterminado" version="103">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Servo.ipt.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.025918432625233155</Mass>
+<CenterOfMass>0 0.015710523510330806 0.00038337295586544364</CenterOfMass>
+<Inertia>5.8595288530870156e-06 4.5905688669846395e-06 2.9478938559579151e-06 -7.9095287957465665e-08 -1.072720501901421e-12 0</Inertia>
+</MassProperties>
+<GeometryFile name="Servo.ipt_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0.37450980392156863" g="0.37450980392156863" b="0.37450980392156863" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Superior rodamiento" uid="Superior rodamiento*:*Predeterminado" version="200">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Superior rodamiento.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.08371073907161744</Mass>
+<CenterOfMass>-3.1524483695666994e-05 -6.3786388988067752e-05 1.6888116265538207e-05</CenterOfMass>
+<Inertia>0.00011848259734715492 0.00023645609322921942 0.00011831231083307944 -9.0175882970213007e-11 -1.5673990140483186e-08 1.6832831487690507e-10</Inertia>
+</MassProperties>
+<GeometryFile name="Superior rodamiento_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="rodamiento" uid="rodamiento*:*Predeterminado" version="136">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="rodamiento.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0066939485466364548</Mass>
+<CenterOfMass>0 0 0</CenterOfMass>
+<Inertia>1.4097731755758171e-05 2.8185422588696477e-05 1.4097731755758259e-05 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="rodamiento_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>

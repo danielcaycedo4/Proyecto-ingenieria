@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="Daniel Caycedo" on="07/01/20||16:50:11" using="Simscape Multibody Link Version 6.1" from="Autodesk Inventor 2017 (Build 210142000, 142)"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="centimeter"/>
+<RootAssembly name="Ensamble_Modelo_6R.iam" uid="Ensamble_Modelo_6R.iam_{582AA009-4CB7-B7CD-4C6B-D499191A91A4}" version="{F93E4CF1-2DD3-446A-F2B3-1ECF9538742A}">
+<AssemblyFile name="Ensamble_Modelo_6R.iam" type="Inventor Assembly"/>
+<InstanceTree>
+<Instance name="Base_modelo_6R:1" grounded="true" uid="Base_modelo_6R:1" entityUid="Base_modelo_6R.ipt_{2797DC47-47A9-6862-AAD7-59B97C336964}">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0,22343953164606722 0,10861603587895757 -6,8000000012651043</Translation>
+</Transform>
+</Instance>
+<Instance name="Joint_1_modelo_6R:1" uid="Joint_1_modelo_6R:1" entityUid="Joint_1_modelo_6R.ipt_{013453AB-421A-21B7-FF55-F5AC7A7B6B28}">
+<Transform>
+<Rotation>0,77210408974600186 -9,2238594777565258e-16 0,63549608543050951 -5,7853830912866116e-16 1,0000000000000018 2,1543448869573514e-15 -0,63549608543050951 -2,0310373286660055e-15 0,77210408974600186</Rotation>
+<Translation>-4,3107136746730319 0,10861603587893587 -5,74365213610624</Translation>
+</Transform>
+</Instance>
+<Instance name="Joint_3_modelo_6R:1" uid="Joint_3_modelo_6R:1" entityUid="Joint_3_modelo_6R.ipt_{B53D7663-4F34-BC27-3C63-2C8D54A5138B}">
+<Transform>
+<Rotation>0,62868838895475654 -0,56263135736323378 0,5368397016848474 0,46526719408236156 0,82528071542311909 0,32005964891161875 -0,62311904777834948 0,048556116631250409 0,78061831635793266</Rotation>
+<Translation>4,1401488189159039 4,3590339098165334 -6,47297704753041</Translation>
+</Transform>
+</Instance>
+<Instance name="Joint_4_modelo_6R:1" uid="Joint_4_modelo_6R:1" entityUid="Joint_4_modelo_6R.ipt_{7A012CBA-45CD-3B0F-DBB6-D780750BA862}">
+<Transform>
+<Rotation>-0,76768353993408578 0,23194853523015718 -0,59737915892576554 0,2845621515342055 0,95863535919992726 0,0065291657851504464 0,5741832150354923 -0,16497916564284917 -0,80193236028688519</Rotation>
+<Translation>-13,274426893052205 2,0880068711324817 8,1923269190495507</Translation>
+</Transform>
+</Instance>
+<Instance name="Joint_2_modelo_6R:1" uid="Joint_2_modelo_6R:1" entityUid="Joint_2_modelo_6R.ipt_{4F2E648C-4079-E733-F2F5-749AC561C60F}">
+<Transform>
+<Rotation>0,76974211796601832 0,075526690157433837 0,63387127313285196 -0,062456688110243512 0,99712247670713439 -0,042964270687879884 -0,63529224293981368 -0,0065180916919474899 0,77224431402322902</Rotation>
+<Translation>-4,6511295441824689 0,20721266580872744 -5,7142736230768794</Translation>
+</Transform>
+</Instance>
+<Instance name="Joint_5_modelo_6R:1" uid="Joint_5_modelo_6R:1" entityUid="Joint_5_modelo_6R.ipt_{2E219D89-44C2-ADDE-EA82-CEA9C339EBCB}">
+<Transform>
+<Rotation>0,51478510831587088 -0,65328779206416654 0,55516786019738384 0,7054480677754873 0,69076265166531237 0,15871352411226988 -0,48717483096733022 0,30993873556596818 0,81645493707106731</Rotation>
+<Translation>6,4970687065486707 9,072214137024023 -13,808499318845737</Translation>
+</Transform>
+</Instance>
+<Instance name="Servo Bracket - Long U_D‚faut:1" uid="Servo Bracket - Long U_D‚faut:1" entityUid="Servo Bracket - Long U_D‚faut.ipt_{4FFAAEF0-4CD1-E06A-19CB-8D9AFD415286}">
+<Transform>
+<Rotation>0,2262520663712049 -0,4197886731441679 0,87896955144226641 0,20836779459056196 0,90233940716182548 0,37731479756340142 -0,95152134218851092 0,097780694325128092 0,29162659545567959</Rotation>
+<Translation>-9,6499669671880852 34,941403017476958 0,31525690303528175</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Coincident name="Coincidencia:1">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Joint_1_modelo_6R:1</Uid>
+</InstancePath>
+<Position>-0,79424426401571935 3,1000395956340046 6,8500000025301819</Position>
+<Axis>-3,4688438810125794e-15 0,99999999999999822 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Base_modelo_6R:1</Uid>
+</InstancePath>
+<Position>-0,79424426401602632 3,100039595633989 6,8500000025301695</Position>
+<Axis>3,4692110862164669e-15 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincidencia:2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base_modelo_6R:1</Uid>
+</InstancePath>
+<Position>-0,79424426401568926 3,1000395956340094 6,8500000025301988</Position>
+<Axis>3,5393620700087011e-15 -1 -2,3475331823032497e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Joint_1_modelo_6R:1</Uid>
+</InstancePath>
+<Position>-1,4470747732878451 3,1000395956340023 5,9463614817911132</Position>
+<Axis>-3,4688438810125794e-15 0,99999999999999822 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincidencia:3">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Joint_2_modelo_6R:1</Uid>
+</InstancePath>
+<Position>-0,51242339360323386 4,5500395960113424 2,7350179859231218</Position>
+<Axis>-0,56675540483987163 6,5928165704498554e-15 0,82388610322348688</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Joint_1_modelo_6R:1</Uid>
+</InstancePath>
+<Position>-0,51242339360338018 4,5500395960114055 2,7350179859230348</Position>
+<Axis>-0,56675540483987519 6,7003725718859014e-15 0,8238861032234891</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincidencia:4">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Joint_2_modelo_6R:1</Uid>
+</InstancePath>
+<Position>-3,5729025797385656 4,5500395960113806 7,1840029433299879</Position>
+<Axis>0,56675540483987163 -6,5928165704498554e-15 -0,82388610322348688</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Joint_1_modelo_6R:1</Uid>
+</InstancePath>
+<Position>-0,51242339360338018 4,5500395960114055 2,7350179859230348</Position>
+<Axis>-0,56675540483987519 6,7003725718859014e-15 0,8238861032234891</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincidencia:5">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Joint_3_modelo_6R:1</Uid>
+</InstancePath>
+<Position>-3,5829339137013543 14,473269574832853 0,62279831614760495</Position>
+<Axis>-0,56675540483988451 1,0061396160665481e-14 0,82388610322348632</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Joint_2_modelo_6R:1</Uid>
+</InstancePath>
+<Position>-3,5829339137010994 14,473269574832807 0,62279831614775549</Position>
+<Axis>-0,56675540483988085 9,9833336042465248e-15 0,82388610322348022</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincidencia:6">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Joint_2_modelo_6R:1</Uid>
+</InstancePath>
+<Position>-6,6434130998364811 14,473269574832861 5,071783273554586</Position>
+<Axis>0,56675540483988085 -9,9833336042465248e-15 -0,82388610322348022</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Joint_3_modelo_6R:1</Uid>
+</InstancePath>
+<Position>-3,5829339137013534 14,473269574832853 0,6227983161476045</Position>
+<Axis>-0,56675540483988451 1,0061396160665481e-14 0,82388610322348632</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincidencia:7">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Joint_4_modelo_6R:1</Uid>
+</InstancePath>
+<Position>-5,4880267304525017 22,126598866597817 2,4073633714784997</Position>
+<Axis>0,75130247727864796 -0,41041046825030686 0,5168247625506458</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Joint_3_modelo_6R:1</Uid>
+</InstancePath>
+<Position>-1,5812538486029082 19,99246443169633 5,0948521367416575</Position>
+<Axis>-0,75130247727864385 0,41041046825032151 -0,51682476255064158</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincidencia:8">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Joint_3_modelo_6R:1</Uid>
+</InstancePath>
+<Position>-5,6382872259076224 22,208680960248074 2,3039984189681673</Position>
+<Axis>0,75130247727864385 -0,41041046825032151 0,51682476255064158</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Joint_4_modelo_6R:1</Uid>
+</InstancePath>
+<Position>-5,0672973431764614 21,896769004377646 2,6967852385068607</Position>
+<Axis>-0,75130247727864796 0,41041046825030686 -0,5168247625506458</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincidencia:9">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Joint_5_modelo_6R:1</Uid>
+</InstancePath>
+<Position>-2,2466487182741588 27,818345628461262 7,1491971629892133</Position>
+<Axis>0,47811703862211835 -0,20132993794375964 -0,85490955864745111</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Joint_4_modelo_6R:1</Uid>
+</InstancePath>
+<Position>-2,0350207656798815 22,32443798006204 2,4788446751636792</Position>
+<Axis>-0,47811703862211474 0,20132993794376272 0,85490955864745188</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincidencia:10">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Joint_4_modelo_6R:1</Uid>
+</InstancePath>
+<Position>0,33518329028604832 26,731163963564882 2,5326855462934574</Position>
+<Axis>-0,47811703862211791 0,20132993794375648 0,85490955864745144</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Joint_5_modelo_6R:1</Uid>
+</InstancePath>
+<Position>-2,2466487182741588 27,818345628461262 7,1491971629892133</Position>
+<Axis>0,47811703862211835 -0,20132993794375964 -0,85490955864745111</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincidencia:11">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Servo Bracket - Long U_D‚faut:1</Uid>
+</InstancePath>
+<Position>-8,8817841970012523e-16 0 0</Position>
+<Axis>0 1 -3,524958103184872e-15</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Joint_5_modelo_6R:1</Uid>
+</InstancePath>
+<Position>2,2203314770707294 33,119268093394425 5,5332425460897792</Position>
+<Axis>-0,37281634045597856 -0,9278512017670032 0,01000618151653275</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincidencia:12">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Servo Bracket - Long U_D‚faut:1</Uid>
+</InstancePath>
+<Position>1,7763568394002505e-15 0,19999999999999574 -1,4500000000000099</Position>
+<Axis>0 1 -3,524958103184872e-15</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Joint_5_modelo_6R:1</Uid>
+</InstancePath>
+<Position>2,0115543264153892 32,599671420404896 5,53884600773904</Position>
+<Axis>0,37281634045597856 0,9278512017670032 -0,01000618151653275</Axis>
+</ConstraintGeometry>
+</Coincident>
+</Constraints>
+<Joints>
+</Joints>
+</RootAssembly>
+<Assemblies>
+</Assemblies>
+<Parts>
+<Part name="Base_modelo_6R.ipt" uid="Base_modelo_6R.ipt_{2797DC47-47A9-6862-AAD7-59B97C336964}" version="{FA368D24-93F9-2B25-7AA9-8B487AA1A447}">
+<PartFile name="Base_modelo_6R.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>0,30391069778177815</Mass>
+<CenterOfMass>-0,8066618363909851 0,75659697281470306 6,7059076873125676</CenterOfMass>
+<Inertia>5,4584389722785494 8,1512223960891035 5,4080722109341055 -0,03438706800461068 -0,0027110788528345894 -0,0035102832177022949</Inertia>
+</MassProperties>
+<GeometryFile name="Base_modelo_6R_ipt_1c2fc65.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0,74901960784313726" g="0,74901960784313726" b="0,74901960784313726" a="1"/>
+<Diffuse r="0,74901960784313726" g="0,74901960784313726" b="0,74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0,14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Joint_1_modelo_6R.ipt" uid="Joint_1_modelo_6R.ipt_{013453AB-421A-21B7-FF55-F5AC7A7B6B28}" version="{2017ADF2-9EEC-8BF3-E84D-3ED26D5D6C94}">
+<PartFile name="Joint_1_modelo_6R.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>0,032092033970953129</Mass>
+<CenterOfMass>-1,1607582136960435 4,4281032546528127 5,4383610236727051</CenterOfMass>
+<Inertia>0,062137786965419994 0,093301388739953042 0,061154834663334101 0,0019618106821467337 -0,0060451167662549212 -0,0011024628206454566</Inertia>
+</MassProperties>
+<GeometryFile name="Joint_1_modelo_6R_ipt_ab99a143.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0,74901960784313726" g="0,74901960784313726" b="0,74901960784313726" a="1"/>
+<Diffuse r="0,74901960784313726" g="0,74901960784313726" b="0,74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0,14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Joint_2_modelo_6R.ipt" uid="Joint_2_modelo_6R.ipt_{4F2E648C-4079-E733-F2F5-749AC561C60F}" version="{AFAA2450-6FB4-DD58-4528-3C4DB5510D04}">
+<PartFile name="Joint_2_modelo_6R.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>0,016479690139840953</Mass>
+<CenterOfMass>-3,5212427062346556 9,5116545854224217 3,8210120194165671</CenterOfMass>
+<Inertia>0,20464758487669837 0,12241958717834012 0,17947638574333405 0,025980267902179322 0,032869843464680144 0,037767229920874799</Inertia>
+</MassProperties>
+<GeometryFile name="Joint_2_modelo_6R_ipt_1a3af6e0.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0,74901960784313726" g="0,74901960784313726" b="0,74901960784313726" a="1"/>
+<Diffuse r="0,74901960784313726" g="0,74901960784313726" b="0,74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0,14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Joint_3_modelo_6R.ipt" uid="Joint_3_modelo_6R.ipt_{B53D7663-4F34-BC27-3C63-2C8D54A5138B}" version="{67C6D64D-8AB5-46D4-BD71-E85A2004CA98}">
+<PartFile name="Joint_3_modelo_6R.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>0,04033187904083399</Mass>
+<CenterOfMass>-5,5202409194174669 15,65810166797722 2,4283680015603419</CenterOfMass>
+<Inertia>0,18953319106555863 0,1500226386609097 0,21408712124228077 -0,007733881225344021 -0,026800932962056323 -0,0074196099354680882</Inertia>
+</MassProperties>
+<GeometryFile name="Joint_3_modelo_6R_ipt_1d53ee00.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0,74901960784313726" g="0,74901960784313726" b="0,74901960784313726" a="1"/>
+<Diffuse r="0,74901960784313726" g="0,74901960784313726" b="0,74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0,14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Joint_4_modelo_6R.ipt" uid="Joint_4_modelo_6R.ipt_{7A012CBA-45CD-3B0F-DBB6-D780750BA862}" version="{BD73D28E-DD33-9111-DDA8-723D7F952137}">
+<PartFile name="Joint_4_modelo_6R.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>0,040331879040881188</Mass>
+<CenterOfMass>-3,6431494407057343 22,020385740780011 4,6439263528364485</CenterOfMass>
+<Inertia>0,20272489627173126 0,16234262830789839 0,18857542611560713 -0,013808239615241292 0,018762051357935888 -0,030254397315175537</Inertia>
+</MassProperties>
+<GeometryFile name="Joint_4_modelo_6R_ipt_74a15448.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0,74901960784313726" g="0,74901960784313726" b="0,74901960784313726" a="1"/>
+<Diffuse r="0,74901960784313726" g="0,74901960784313726" b="0,74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0,14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Joint_5_modelo_6R.ipt" uid="Joint_5_modelo_6R.ipt_{2E219D89-44C2-ADDE-EA82-CEA9C339EBCB}" version="{539945CF-CC27-5E75-C13E-C0E82DC67A99}">
+<PartFile name="Joint_5_modelo_6R.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>0,064184067941925854</Mass>
+<CenterOfMass>0,73309259318155828 28,822462162400864 5,0450789712387802</CenterOfMass>
+<Inertia>0,34360674302437111 0,22119733278998047 0,37587278634402899 0,038095824901338345 0,034371425957899791 -0,094074336388074928</Inertia>
+</MassProperties>
+<GeometryFile name="Joint_5_modelo_6R_ipt_bea07eb9.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0,74901960784313726" g="0,74901960784313726" b="0,74901960784313726" a="1"/>
+<Diffuse r="0,74901960784313726" g="0,74901960784313726" b="0,74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0,14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Servo Bracket - Long U_D‚faut.ipt" uid="Servo Bracket - Long U_D‚faut.ipt_{4FFAAEF0-4CD1-E06A-19CB-8D9AFD415286}" version="{DD584B43-6402-4CB4-0257-CE6F15A273FD}">
+<PartFile name="Servo Bracket - Long U_D‚faut.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>0,017643274303737907</Mass>
+<CenterOfMass>1,7687780860478981e-12 1,6349234288921262 -1,449999999999124</CenterOfMass>
+<Inertia>0,058294712436258438 0,14389753192528953 0,148051608989832 2,3618440536665729e-14 8,3559825728122257e-16 -4,6323238935782616e-14</Inertia>
+</MassProperties>
+<GeometryFile name="Servo Bracket - Long U_D‚faut_ipt_e6bb1f0a.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0,74901960784313726" g="0,74901960784313726" b="0,74901960784313726" a="1"/>
+<Diffuse r="0,74901960784313726" g="0,74901960784313726" b="0,74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0,14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>

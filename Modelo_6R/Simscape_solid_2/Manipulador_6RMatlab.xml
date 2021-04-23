@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="07/02/20||16:41:48" using="Simscape Multibody Link Version 6.1" from="SolidWorks 28.0.0"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="Manipulador_6RMatlab" uid="Manipulador_6RMatlab" version="158">
+<AssemblyFile name="Manipulador_6RMatlab.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="BaseManipulador_6R-1" uid="BaseManipulador_6R-1" grounded="true" entityUid="BaseManipulador_6R*:*Predeterminado">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.002259860060614953 -0.030248789461395795 0.08300000000000006</Translation>
+</Transform>
+</Instance>
+<Instance name="Eslabon1Manipulador_6R-1" uid="Eslabon1Manipulador_6R-1" entityUid="Eslabon1Manipulador_6R*:*Predeterminado">
+<Transform>
+<Rotation>0.26176643986310477 -0.023947713382349779 0.96483409868492542 -0.056694358119556434 0.99758425974749443 0.040142178085586594 -0.96346462349107931 -0.065208524962617379 0.25977637989892899</Rotation>
+<Translation>-0.078909502943279392 -0.031880098601477738 0.14227615333667004</Translation>
+</Transform>
+</Instance>
+<Instance name="Esslabon3Manipulador_6R-1" uid="Esslabon3Manipulador_6R-1" entityUid="Esslabon3Manipulador_6R*:*Predeterminado">
+<Transform>
+<Rotation>-0.22030071012298527 0.17879714750530909 -0.95890519717189615 0.27141954192076323 0.95546940131446556 0.11580006655999672 0.9369092962410136 -0.23475477246637896 -0.25901962748299046</Rotation>
+<Translation>0.0095133198139788662 -0.031692661995272715 0.19103224280010234</Translation>
+</Transform>
+</Instance>
+<Instance name="Esslabon3Manipulador_6R-2" uid="Esslabon3Manipulador_6R-2" entityUid="Esslabon3Manipulador_6R*:*Predeterminado">
+<Transform>
+<Rotation>-0.94144175730824098 0.2183198506520625 0.25695108563232855 0.25489329151170675 0.95968015561412368 0.11850488961548998 -0.22071888804245812 0.17706055950355667 -0.95913123749025508</Rotation>
+<Translation>-0.051852278427768808 -0.099980744877560951 0.16268275881348662</Translation>
+</Transform>
+</Instance>
+<Instance name="Esslabon5Manipulador_6R-1" uid="Esslabon5Manipulador_6R-1" entityUid="Esslabon5Manipulador_6R*:*Predeterminado">
+<Transform>
+<Rotation>-0.6010866869541146 -0.065063971999005168 0.79653089978621605 -0.13841624835049654 -0.97314219953479675 -0.18394347413581114 0.78710592486596087 -0.22081879229877793 0.57593690974672695</Rotation>
+<Translation>-0.04972592916476383 0.27043939601944406 0.12207975547998917</Translation>
+</Transform>
+</Instance>
+<Instance name="Servo Bracket - Long U-1" uid="Servo Bracket - Long U-1" entityUid="Servo Bracket - Long U*:*Défaut">
+<Transform>
+<Rotation>-0.37621698528110215 -0.016860687272631937 0.92637816101778525 -0.02767675902998314 0.99959274162105849 0.0069532660018417633 -0.92611812259322268 -0.023023208360057668 -0.37653041694027073</Rotation>
+<Translation>0.018927972067545804 0.32265892861214457 0.13672769638752053</Translation>
+</Transform>
+</Instance>
+<Instance name="ServomotorBracketManipulador_6R-1" uid="ServomotorBracketManipulador_6R-1" entityUid="ServomotorBracketManipulador_6R*:*Predeterminado">
+<Transform>
+<Rotation>0.96734870550580432 -0.095305883261642091 -0.23484733460689483 0.14634684623072106 0.96656489887063235 0.21055853549435127 0.20692772302078399 -0.23805269350906857 0.94895301915242958</Rotation>
+<Translation>-0.048449920849530412 -0.28709739757200275 0.16274182558986788</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Concentric name="Concéntrica1">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>BaseManipulador_6R-1</Uid>
+</InstancePath>
+<Position>-0.0079424422695464313 0.031000395956340854 0.068500000000000075</Position>
+<Axis>3.469211086216465e-15 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>ServomotorBracketManipulador_6R-1</Uid>
+</InstancePath>
+<Position>0.076798332827335128 0.27725566730196638 0.040958749141219025</Position>
+<Axis>0.14634684623072039 0.96656489887063279 0.2105585354943498</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincidente1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>BaseManipulador_6R-1</Uid>
+</InstancePath>
+<Position>-0.0079424422695464313 0.031000395956340854 0.068500000000000047</Position>
+<Axis>-3.5041544138126487e-15 1 1.1665330971016304e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>ServomotorBracketManipulador_6R-1</Uid>
+</InstancePath>
+<Position>0.071564683001234766 0.2773019438233274 0.044383919645198389</Position>
+<Axis>-0.14634684623072039 -0.96656489887063279 -0.2105585354943498</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concéntrica2">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Eslabon1Manipulador_6R-1</Uid>
+</InstancePath>
+<Position>-0.0014940269472624723 0.045500395631644021 0.04126641909357779</Position>
+<Axis>0.5778608362603086 7.2095107661596103e-15 0.81613531593513144</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>ServomotorBracketManipulador_6R-1</Uid>
+</InstancePath>
+<Position>0.094715495798921884 0.29377351251168471 0.021545195430834413</Position>
+<Axis>-0.83671460049566149 0.0073983247579576111 0.54758920926928545</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincidente2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Eslabon1Manipulador_6R-1</Uid>
+</InstancePath>
+<Position>0.02971045821079446 0.045500395631644416 0.085337726154075255</Position>
+<Axis>-0.5778608362603086 -7.2095107661596103e-15 -0.81613531593513144</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>ServomotorBracketManipulador_6R-1</Uid>
+</InstancePath>
+<Position>0.094715495798921884 0.29377351251168471 0.021545195430834413</Position>
+<Axis>0.83671460049566149 -0.007398324757957625 -0.54758920926928545</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concéntrica3">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Eslabon1Manipulador_6R-1</Uid>
+</InstancePath>
+<Position>-0.0067514841484375976 0.15130446928475977 0.044988937351953293</Position>
+<Axis>0.57786083626031381 6.3837823915946501e-16 0.81613531593512789</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Esslabon3Manipulador_6R-2</Uid>
+</InstancePath>
+<Position>0.047123660928773126 0.21284970288915087 0.04176356977322096</Position>
+<Axis>-0.80764144630921864 0.14389767772193496 0.57184679115108072</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincidente3">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Eslabon1Manipulador_6R-1</Uid>
+</InstancePath>
+<Position>-0.0031158298338529178 0.10139688737291251 0.044865303144967374</Position>
+<Axis>0.57786083626031348 7.625844400394044e-15 0.816135315935128</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Esslabon3Manipulador_6R-2</Uid>
+</InstancePath>
+<Position>0.047123660928773126 0.21284970288915087 0.04176356977322096</Position>
+<Axis>0.80764144630921864 -0.14389767772193496 -0.57184679115108072</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concéntrica4">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Esslabon3Manipulador_6R-1</Uid>
+</InstancePath>
+<Position>0.047123660928773126 0.21284970288915081 0.041763569773221002</Position>
+<Axis>-0.80764144630921852 0.14389767772193485 0.57184679115108072</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Esslabon3Manipulador_6R-2</Uid>
+</InstancePath>
+<Position>0.053523510527409418 0.27655156731245145 0.079364958399688074</Position>
+<Axis>-0.52772272825342781 0.25631535471286676 -0.80982168470792137</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincidente5">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Esslabon3Manipulador_6R-1</Uid>
+</InstancePath>
+<Position>0.047123660928773126 0.21284970288915081 0.041763569773221002</Position>
+<Axis>0.80764144630921852 -0.14389767772193485 -0.57184679115108072</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Esslabon3Manipulador_6R-2</Uid>
+</InstancePath>
+<Position>0.025026483201724067 0.29039259646694637 0.035634587425459968</Position>
+<Axis>0.52772272825342781 -0.25631535471286676 0.80982168470792137</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concéntrica7">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Esslabon3Manipulador_6R-1</Uid>
+</InstancePath>
+<Position>0.053523510527409446 0.2765515673124514 0.079364958399688088</Position>
+<Axis>-0.52772272825342781 0.25631535471286671 -0.80982168470792137</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Esslabon5Manipulador_6R-1</Uid>
+</InstancePath>
+<Position>0.0142544380469245 0.0050349742786015006 0.039627021378173879</Position>
+<Axis>-0.83671460049566138 0.0073983247579575279 0.54758920926928556</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincidente8">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Esslabon3Manipulador_6R-1</Uid>
+</InstancePath>
+<Position>0.039312836425210551 0.22927309274891416 0.071191673594538346</Position>
+<Axis>-0.52772272825342592 0.25631535471287337 -0.8098216847079206</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Esslabon5Manipulador_6R-1</Uid>
+</InstancePath>
+<Position>0.0142544380469245 0.0050349742786015006 0.039627021378173879</Position>
+<Axis>0.83671460049566138 -0.007398324757957514 -0.54758920926928556</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concéntrica8">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Esslabon5Manipulador_6R-1</Uid>
+</InstancePath>
+<Position>-0.024580099227276012 -0.058751984107378308 0.045979396466610582</Position>
+<Axis>0.14634684623072031 0.9665648988706329 0.21055853549434966</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Servo Bracket - Long U-1</Uid>
+</InstancePath>
+<Position>0 -1.1102230246251565e-16 -0.014500000000000075</Position>
+<Axis>0 1.0000000000000002 -3.4954678040932663e-15</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincidente9">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Esslabon5Manipulador_6R-1</Uid>
+</InstancePath>
+<Position>-0.024580099227276012 -0.058751984107378308 0.045979396466610582</Position>
+<Axis>-0.14634684623072031 -0.9665648988706329 -0.21055853549434966</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Servo Bracket - Long U-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1.0000000000000002 3.4954678040932663e-15</Axis>
+</ConstraintGeometry>
+</Coincident>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+</Assemblies>
+<Parts>
+<Part name="BaseManipulador_6R" uid="BaseManipulador_6R*:*Predeterminado" version="140">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="BaseManipulador_6R.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.31066221189275922</Mass>
+<CenterOfMass>-0.0088796705000047521 0.0070671368846909012 0.06641329945789122</CenterOfMass>
+<Inertia>0.00054558175534408454 0.00080307387099615114 0.00053464646218620874 -2.7331342435930975e-06 3.1225064919199512e-06 2.0629109078991416e-06</Inertia>
+</MassProperties>
+<GeometryFile name="BaseManipulador_6R_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Eslabon1Manipulador_6R" uid="Eslabon1Manipulador_6R*:*Predeterminado" version="106">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Eslabon1Manipulador_6R.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.016479690139840828</Mass>
+<CenterOfMass>0.01205734786743879 0.098402432458202016 0.065979467068949318</CenterOfMass>
+<Inertia>2.1487750303023117e-05 1.0571772065868321e-05 1.8594833411066587e-05 -4.8819205989512519e-07 -4.1075445778729575e-06 6.8949261835775128e-07</Inertia>
+</MassProperties>
+<GeometryFile name="Eslabon1Manipulador_6R_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Esslabon3Manipulador_6R" uid="Esslabon3Manipulador_6R*:*Predeterminado" version="108">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Esslabon3Manipulador_6R.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.050896118918098684</Mass>
+<CenterOfMass>0.021956814696809886 0.22697319743544317 0.050369392465829117</CenterOfMass>
+<Inertia>2.4219654522786454e-05 2.0403195859255024e-05 2.384798029937884e-05 4.0946821303362949e-07 -2.3731701747968945e-06 -6.8081343700825099e-07</Inertia>
+</MassProperties>
+<GeometryFile name="Esslabon3Manipulador_6R_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Esslabon5Manipulador_6R" uid="Esslabon5Manipulador_6R*:*Predeterminado" version="110">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Esslabon5Manipulador_6R.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.085312547696356558</Mass>
+<CenterOfMass>-0.010731899696032228 -0.017112077204019908 0.061646082786391519</CenterOfMass>
+<Inertia>5.0153919390597778e-05 2.8969395972829226e-05 5.0539118296719512e-05 5.5617153756379471e-08 -2.5539507084245731e-06 -9.6080841665430963e-06</Inertia>
+</MassProperties>
+<GeometryFile name="Esslabon5Manipulador_6R_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Servo Bracket - Long U" uid="Servo Bracket - Long U*:*Défaut" version="711">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Servo Bracket - Long U.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.047636840620092248</Mass>
+<CenterOfMass>0 0.016349234288921311 -0.014500000000000032</CenterOfMass>
+<Inertia>1.5739572356706426e-05 3.8852333619845156e-05 3.9973934425733681e-05 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Servo Bracket - Long U_Défaut_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Diffuse r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Specular r="0.44901960784313727" g="0.45882352941176469" b="0.46470588235294119" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="ServomotorBracketManipulador_6R" uid="ServomotorBracketManipulador_6R*:*Predeterminado" version="107">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="ServomotorBracketManipulador_6R.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.042656273848178279</Mass>
+<CenterOfMass>0.076423840286500774 0.28906617449284339 0.044104042793586054</CenterOfMass>
+<Inertia>1.0634376379721627e-05 1.4658881615142249e-05 9.7422320786641418e-06 1.4235135506563144e-06 2.0181639191143014e-07 2.8994128103473767e-07</Inertia>
+</MassProperties>
+<GeometryFile name="ServomotorBracketManipulador_6R_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>

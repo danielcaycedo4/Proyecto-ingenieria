@@ -1,0 +1,181 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4550 ]
+[d frameptr 4065 ]
+"4 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\strlen.c
+[v _strlen strlen `(ui  1 e 2 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"45 C:\Users\DASAN\Documents\Daniel SCR\Universidad\Proyecto ingenieria\LCD_4bits\LCD4bits.X\main_LCD4bits.c
+[v _main main `(v  1 e 1 0 ]
+"52
+[v _settings settings `(v  1 e 1 0 ]
+"72
+[v _SettingsLCD SettingsLCD `(v  1 e 1 0 ]
+[v i2_SettingsLCD SettingsLCD `(v  1 e 1 0 ]
+"78
+[v _WriteLCD WriteLCD `(v  1 e 1 0 ]
+"84
+[v _LCD LCD `(v  1 e 1 0 ]
+[v i2_LCD LCD `(v  1 e 1 0 ]
+"100
+[v _LCD_int LCD_int `IIH(v  1 e 1 0 ]
+"109
+[v _PrintDataLCD PrintDataLCD `(v  1 e 1 0 ]
+"117
+[v _DisplayShiftRight DisplayShiftRight `(v  1 e 1 0 ]
+"124
+[v _DisplayShiftLeft DisplayShiftLeft `(v  1 e 1 0 ]
+"3264 C:\Program Files\Microchip\xc8\v2.31\pic\include\proc\pic18f4550.h
+[v _LATD LATD `VEuc  1 e 1 @3980 ]
+[s S49 . 1 `uc 1 LATD0 1 0 :1:0 
+`uc 1 LATD1 1 0 :1:1 
+`uc 1 LATD2 1 0 :1:2 
+`uc 1 LATD3 1 0 :1:3 
+`uc 1 LATD4 1 0 :1:4 
+`uc 1 LATD5 1 0 :1:5 
+`uc 1 LATD6 1 0 :1:6 
+`uc 1 LATD7 1 0 :1:7 
+]
+"3291
+[s S58 . 1 `uc 1 LD0 1 0 :1:0 
+`uc 1 LD1 1 0 :1:1 
+`uc 1 LD2 1 0 :1:2 
+`uc 1 LD3 1 0 :1:3 
+`uc 1 LD4 1 0 :1:4 
+`uc 1 LD5 1 0 :1:5 
+`uc 1 LD6 1 0 :1:6 
+`uc 1 LD7 1 0 :1:7 
+]
+[u S67 . 1 `S49 1 . 1 0 `S58 1 . 1 0 ]
+[v _LATDbits LATDbits `VES67  1 e 1 @3980 ]
+"3376
+[v _LATE LATE `VEuc  1 e 1 @3981 ]
+"4002
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+"4224
+[v _TRISE TRISE `VEuc  1 e 1 @3990 ]
+"6582
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @4033 ]
+"7987
+[v _OSCCON OSCCON `VEuc  1 e 1 @4051 ]
+"9742
+[v _GIE GIE `VEb  1 e 0 @32663 ]
+"9862
+[v _INT2IE INT2IE `VEb  1 e 0 @32644 ]
+"9865
+[v _INT2IF INT2IF `VEb  1 e 0 @32641 ]
+"9880
+[v _INTEDG2 INTEDG2 `VEb  1 e 0 @32652 ]
+"10012
+[v _LATE0 LATE0 `VEb  1 e 0 @31848 ]
+"10015
+[v _LATE1 LATE1 `VEb  1 e 0 @31849 ]
+"42 C:\Users\DASAN\Documents\Daniel SCR\Universidad\Proyecto ingenieria\LCD_4bits\LCD4bits.X\main_LCD4bits.c
+[v _name name `[8]uc  1 e 8 0 ]
+"43
+[v _i i `i  1 e 2 0 ]
+"45
+[v _main main `(v  1 e 1 0 ]
+{
+"50
+} 0
+"52
+[v _settings settings `(v  1 e 1 0 ]
+{
+"70
+} 0
+"72
+[v _SettingsLCD SettingsLCD `(v  1 e 1 0 ]
+{
+[v SettingsLCD@word word `uc  1 a 1 wreg ]
+[v SettingsLCD@word word `uc  1 a 1 wreg ]
+[v SettingsLCD@word word `uc  1 a 1 10 ]
+"76
+} 0
+"84
+[v _LCD LCD `(v  1 e 1 0 ]
+{
+[v LCD@data data `uc  1 a 1 wreg ]
+[v LCD@data data `uc  1 a 1 wreg ]
+"86
+[v LCD@data data `uc  1 a 1 9 ]
+"98
+} 0
+"100
+[v _LCD_int LCD_int `IIH(v  1 e 1 0 ]
+{
+"107
+} 0
+"109
+[v _PrintDataLCD PrintDataLCD `(v  1 e 1 0 ]
+{
+"115
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\strlen.c
+[v _strlen strlen `(ui  1 e 2 0 ]
+{
+"7
+[v strlen@a a `*.39Cuc  1 a 2 2 ]
+"5
+[v strlen@s s `*.39Cuc  1 p 2 0 ]
+"12
+} 0
+"78 C:\Users\DASAN\Documents\Daniel SCR\Universidad\Proyecto ingenieria\LCD_4bits\LCD4bits.X\main_LCD4bits.c
+[v _WriteLCD WriteLCD `(v  1 e 1 0 ]
+{
+[v WriteLCD@word word `uc  1 a 1 wreg ]
+[v WriteLCD@word word `uc  1 a 1 wreg ]
+[v WriteLCD@word word `uc  1 a 1 2 ]
+"82
+} 0
+"117
+[v _DisplayShiftRight DisplayShiftRight `(v  1 e 1 0 ]
+{
+"122
+} 0
+"124
+[v _DisplayShiftLeft DisplayShiftLeft `(v  1 e 1 0 ]
+{
+"129
+} 0
+"72
+[v i2_SettingsLCD SettingsLCD `(v  1 e 1 0 ]
+{
+[v i2SettingsLCD@word word `uc  1 a 1 wreg ]
+[v i2SettingsLCD@word word `uc  1 a 1 wreg ]
+[v i2SettingsLCD@word word `uc  1 a 1 2 ]
+"76
+} 0
+"84
+[v i2_LCD LCD `(v  1 e 1 0 ]
+{
+[v i2LCD@data data `uc  1 a 1 wreg ]
+[v i2LCD@data data `uc  1 a 1 wreg ]
+"86
+[v i2LCD@data data `uc  1 a 1 1 ]
+"98
+} 0

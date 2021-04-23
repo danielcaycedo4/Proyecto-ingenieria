@@ -1,0 +1,28 @@
+*Se o modulo HC-05 é novo a velocidade é 9600 baudios
+
+AT1 - Manter oprimido o botao enquanto está ligado (baudios configurados) - vide o código 1
+AT2 - Manter oprimido o botao e depois ligar o modulo HC-05 (38400 baudios por defeito) - vide o código 2
+
+Comandos AT
+
+1. Comprovar a conexao com o modulo Bluetooth HC-05
+AT 
+R/OK
+
+2. Conhecer o nome 
+AT+NAME
+R/ nome do modulo 
+
+3. Modificar o nome 
+AT+NAME=nome desejado
+R/ novo nome do modulo
+
+4. Conhecer a velocidad do modulo
+AT+UART
+R/ Baud,StopBit,Parity ex:(9600,0,0)
+
+5. Modificar a velocidad do modulo
+AT+UART=9600,0,0
+R/ 9600,0,0 o velocidade configurada (38400,0,0)
+
+6.

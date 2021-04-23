@@ -1,0 +1,675 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4550 ]
+[d frameptr 4065 ]
+"5 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\atoi.c
+[v _atoi atoi `(i  1 e 2 0 ]
+"7 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"505 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\doprnt.c
+[v _sprintf sprintf `(i  1 e 2 0 ]
+[v i2_sprintf sprintf `(i  1 e 2 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\flge.c
+[v ___flge __flge `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"43 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\isdigit.c
+[v _isdigit isdigit `(b  1 e 0 0 ]
+"7 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+[v i2___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"7 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+[v i2___lwmod __lwmod `(ui  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\strlen.c
+[v _strlen strlen `(ui  1 e 2 0 ]
+[v i2_strlen strlen `(ui  1 e 2 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\Umul64.c
+[v ___omul __omul `(ul  1 e 4 0 ]
+"85 C:\Users\DASAN\OneDrive\Documents\Daniel SCR\Universidad\Proyecto ingenieria\P_Robot_I2C_Serial_LCD_1.X\Main.c
+[v _main main `(v  1 e 1 0 ]
+"98
+[v _settings settings `(v  1 e 1 0 ]
+"160
+[v _algoritm algoritm `(v  1 e 1 0 ]
+"352
+[v _impresion_datos impresion_datos `(v  1 e 1 0 ]
+"368
+[v _receive receive `IIH(v  1 e 1 0 ]
+"379
+[v _start start `(v  1 e 1 0 ]
+[v i2_start start `(v  1 e 1 0 ]
+"391
+[v _writeI2C writeI2C `(v  1 e 1 0 ]
+[v i2_writeI2C writeI2C `(v  1 e 1 0 ]
+"403
+[v _startI2C startI2C `(v  1 e 1 0 ]
+[v i2_startI2C startI2C `(v  1 e 1 0 ]
+"408
+[v _readyI2C readyI2C `(v  1 e 1 0 ]
+[v i2_readyI2C readyI2C `(v  1 e 1 0 ]
+"412
+[v _sendI2C sendI2C `(v  1 e 1 0 ]
+[v i2_sendI2C sendI2C `(v  1 e 1 0 ]
+"417
+[v _stopI2C stopI2C `(v  1 e 1 0 ]
+[v i2_stopI2C stopI2C `(v  1 e 1 0 ]
+"423
+[v _readI2C readI2C `(v  1 e 1 0 ]
+"447
+[v _repeatedStart repeatedStart `(v  1 e 1 0 ]
+"452
+[v _receiveI2C receiveI2C `(uc  1 e 1 0 ]
+"466
+[v _setPWMFreq setPWMFreq `(v  1 e 1 0 ]
+"495
+[v _map map `(i  1 e 2 0 ]
+"499
+[v _mover_servo mover_servo `(v  1 e 1 0 ]
+"512
+[v _SettingsLCD SettingsLCD `(v  1 e 1 0 ]
+[v i2_SettingsLCD SettingsLCD `(v  1 e 1 0 ]
+"518
+[v _WriteLCD WriteLCD `(v  1 e 1 0 ]
+[v i2_WriteLCD WriteLCD `(v  1 e 1 0 ]
+"524
+[v _LCD LCD `(v  1 e 1 0 ]
+[v i2_LCD LCD `(v  1 e 1 0 ]
+"539
+[v _PrintDataLCD PrintDataLCD `(v  1 e 1 0 ]
+[v i2_PrintDataLCD PrintDataLCD `(v  1 e 1 0 ]
+"3263 C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h
+[v _LATD LATD `VEuc  1 e 1 @3980 ]
+[s S218 . 1 `uc 1 LATD0 1 0 :1:0 
+`uc 1 LATD1 1 0 :1:1 
+`uc 1 LATD2 1 0 :1:2 
+`uc 1 LATD3 1 0 :1:3 
+`uc 1 LATD4 1 0 :1:4 
+`uc 1 LATD5 1 0 :1:5 
+`uc 1 LATD6 1 0 :1:6 
+`uc 1 LATD7 1 0 :1:7 
+]
+"3290
+[s S227 . 1 `uc 1 LD0 1 0 :1:0 
+`uc 1 LD1 1 0 :1:1 
+`uc 1 LD2 1 0 :1:2 
+`uc 1 LD3 1 0 :1:3 
+`uc 1 LD4 1 0 :1:4 
+`uc 1 LD5 1 0 :1:5 
+`uc 1 LD6 1 0 :1:6 
+`uc 1 LD7 1 0 :1:7 
+]
+[u S236 . 1 `S218 1 . 1 0 `S227 1 . 1 0 ]
+[v _LATDbits LATDbits `VES236  1 e 1 @3980 ]
+"3375
+[v _LATE LATE `VEuc  1 e 1 @3981 ]
+[s S30 . 1 `uc 1 TRISB0 1 0 :1:0 
+`uc 1 TRISB1 1 0 :1:1 
+`uc 1 TRISB2 1 0 :1:2 
+`uc 1 TRISB3 1 0 :1:3 
+`uc 1 TRISB4 1 0 :1:4 
+`uc 1 TRISB5 1 0 :1:5 
+`uc 1 TRISB6 1 0 :1:6 
+`uc 1 TRISB7 1 0 :1:7 
+]
+"3657
+[s S39 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+[u S48 . 1 `S30 1 . 1 0 `S39 1 . 1 0 ]
+[v _TRISBbits TRISBbits `VES48  1 e 1 @3987 ]
+[s S78 . 1 `uc 1 TRISC0 1 0 :1:0 
+`uc 1 TRISC1 1 0 :1:1 
+`uc 1 TRISC2 1 0 :1:2 
+`uc 1 . 1 0 :3:3 
+`uc 1 TRISC6 1 0 :1:6 
+`uc 1 TRISC7 1 0 :1:7 
+]
+"3875
+[s S85 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 . 1 0 :3:3 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+[u S92 . 1 `S78 1 . 1 0 `S85 1 . 1 0 ]
+[v _TRISCbits TRISCbits `VES92  1 e 1 @3988 ]
+"4001
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+"4223
+[v _TRISE TRISE `VEuc  1 e 1 @3990 ]
+"4936
+[v _RCSTA RCSTA `VEuc  1 e 1 @4011 ]
+"5146
+[v _TXSTA TXSTA `VEuc  1 e 1 @4012 ]
+"5402
+[v _TXREG TXREG `VEuc  1 e 1 @4013 ]
+"5414
+[v _RCREG RCREG `VEuc  1 e 1 @4014 ]
+"5426
+[v _SPBRG SPBRG `VEuc  1 e 1 @4015 ]
+"6581
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @4033 ]
+"6806
+[v _SSPCON2 SSPCON2 `VEuc  1 e 1 @4037 ]
+"6868
+[v _SSPCON1 SSPCON1 `VEuc  1 e 1 @4038 ]
+"6938
+[v _SSPSTAT SSPSTAT `VEuc  1 e 1 @4039 ]
+"7186
+[v _SSPADD SSPADD `VEuc  1 e 1 @4040 ]
+"7193
+[v _SSPBUF SSPBUF `VEuc  1 e 1 @4041 ]
+"7986
+[v _OSCCON OSCCON `VEuc  1 e 1 @4051 ]
+"8910
+[v _ACKDT ACKDT `VEb  1 e 0 @32301 ]
+"8913
+[v _ACKEN ACKEN `VEb  1 e 0 @32300 ]
+"9741
+[v _GIE GIE `VEb  1 e 0 @32663 ]
+"10011
+[v _LATE0 LATE0 `VEb  1 e 0 @31848 ]
+"10014
+[v _LATE1 LATE1 `VEb  1 e 0 @31849 ]
+"10269
+[v _PEIE PEIE `VEb  1 e 0 @32662 ]
+"10275
+[v _PEN PEN `VEb  1 e 0 @32298 ]
+"10434
+[v _RCEN RCEN `VEb  1 e 0 @32299 ]
+"10440
+[v _RCIE RCIE `VEb  1 e 0 @31981 ]
+"10443
+[v _RCIF RCIF `VEb  1 e 0 @31989 ]
+"10515
+[v _RSEN RSEN `VEb  1 e 0 @32297 ]
+"10560
+[v _SEN SEN `VEb  1 e 0 @32296 ]
+"11043
+[v _TXIF TXIF `VEb  1 e 0 @31988 ]
+"358 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\doprnt.c
+[v _dpowers dpowers `C[5]ui  1 s 10 dpowers ]
+"78 C:\Users\DASAN\OneDrive\Documents\Daniel SCR\Universidad\Proyecto ingenieria\P_Robot_I2C_Serial_LCD_1.X\Main.c
+[v _count count `i  1 e 2 0 ]
+[v _count1 count1 `i  1 e 2 0 ]
+[v _count2 count2 `i  1 e 2 0 ]
+"79
+[v _i i `i  1 e 2 0 ]
+[v _pos pos `i  1 e 2 0 ]
+[v _servos servos `i  1 e 2 0 ]
+[v _z z `i  1 e 2 0 ]
+[v _Angle Angle `i  1 e 2 0 ]
+[v _angle_servos angle_servos `[6]i  1 e 12 0 ]
+[v _coor coor `i  1 e 2 0 ]
+[v _Coordinate_y Coordinate_y `i  1 e 2 0 ]
+[v _Coordinate_x Coordinate_x `i  1 e 2 0 ]
+[v _Coordinate_z Coordinate_z `i  1 e 2 0 ]
+"80
+[v _data1 data1 `uc  1 e 1 0 ]
+[v _data2 data2 `[4]uc  1 e 4 0 ]
+[v _d1 d1 `uc  1 e 1 0 ]
+[v _flag flag `uc  1 e 1 0 ]
+[v _d d `uc  1 e 1 0 ]
+[v _coordinate_z coordinate_z `[3]uc  1 e 3 0 ]
+[v _coordinate coordinate `[9]uc  1 e 9 0 ]
+"81
+[v _coordinate_y coordinate_y `[3]uc  1 e 3 0 ]
+"82
+[v _coordinate_x coordinate_x `[3]uc  1 e 3 0 ]
+"83
+[v _text text `[40]uc  1 e 40 0 ]
+[v _angle angle `[3]uc  1 e 3 0 ]
+[v _texto_LCD texto_LCD `[40]uc  1 e 40 0 ]
+"85
+[v _main main `(v  1 e 1 0 ]
+{
+"96
+} 0
+"98
+[v _settings settings `(v  1 e 1 0 ]
+{
+"158
+} 0
+"379
+[v _start start `(v  1 e 1 0 ]
+{
+"388
+} 0
+"505 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\doprnt.c
+[v _sprintf sprintf `(i  1 e 2 0 ]
+{
+"545
+[v sprintf@val val `ui  1 a 2 21 ]
+"507
+[v sprintf@ap ap `[1]*.39v  1 a 2 19 ]
+"512
+[v sprintf@c c `uc  1 a 1 23 ]
+"521
+[v sprintf@prec prec `c  1 a 1 18 ]
+"525
+[v sprintf@flag flag `uc  1 a 1 17 ]
+"505
+[v sprintf@sp sp `*.39uc  1 p 2 12 ]
+[v sprintf@f f `*.25Cuc  1 p 2 14 ]
+"1567
+} 0
+"7 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+{
+"10
+[v ___lwmod@counter counter `uc  1 a 1 11 ]
+"7
+[v ___lwmod@dividend dividend `ui  1 p 2 7 ]
+[v ___lwmod@divisor divisor `ui  1 p 2 9 ]
+"25
+} 0
+"7 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+{
+"10
+[v ___lwdiv@quotient quotient `ui  1 a 2 4 ]
+"11
+[v ___lwdiv@counter counter `uc  1 a 1 6 ]
+"7
+[v ___lwdiv@dividend dividend `ui  1 p 2 0 ]
+[v ___lwdiv@divisor divisor `ui  1 p 2 2 ]
+"30
+} 0
+"466 C:\Users\DASAN\OneDrive\Documents\Daniel SCR\Universidad\Proyecto ingenieria\P_Robot_I2C_Serial_LCD_1.X\Main.c
+[v _setPWMFreq setPWMFreq `(v  1 e 1 0 ]
+{
+"474
+[v setPWMFreq@prescaleval prescaleval `f  1 a 4 32 ]
+"485
+[v setPWMFreq@newmode newmode `uc  1 a 1 31 ]
+"482
+[v setPWMFreq@prescale prescale `uc  1 a 1 30 ]
+"466
+[v setPWMFreq@freq freq `f  1 p 4 25 ]
+"493
+} 0
+"391
+[v _writeI2C writeI2C `(v  1 e 1 0 ]
+{
+[v writeI2C@Address Address `uc  1 a 1 wreg ]
+[v writeI2C@Address Address `uc  1 a 1 wreg ]
+[v writeI2C@Register Register `uc  1 p 1 2 ]
+[v writeI2C@Data Data `*.39uc  1 p 2 3 ]
+[v writeI2C@bytes bytes `i  1 p 2 5 ]
+[v writeI2C@Address Address `uc  1 a 1 9 ]
+"401
+} 0
+"423
+[v _readI2C readI2C `(v  1 e 1 0 ]
+{
+[v readI2C@Address Address `uc  1 a 1 wreg ]
+[v readI2C@Address Address `uc  1 a 1 wreg ]
+[v readI2C@Register Register `uc  1 p 1 3 ]
+[v readI2C@Data Data `*.39uc  1 p 2 4 ]
+[v readI2C@bytes bytes `i  1 p 2 6 ]
+[v readI2C@Address Address `uc  1 a 1 10 ]
+"445
+} 0
+"417
+[v _stopI2C stopI2C `(v  1 e 1 0 ]
+{
+"421
+} 0
+"403
+[v _startI2C startI2C `(v  1 e 1 0 ]
+{
+"406
+} 0
+"412
+[v _sendI2C sendI2C `(v  1 e 1 0 ]
+{
+[v sendI2C@data data `uc  1 a 1 wreg ]
+[v sendI2C@data data `uc  1 a 1 wreg ]
+[v sendI2C@data data `uc  1 a 1 1 ]
+"415
+} 0
+"447
+[v _repeatedStart repeatedStart `(v  1 e 1 0 ]
+{
+"450
+} 0
+"452
+[v _receiveI2C receiveI2C `(uc  1 e 1 0 ]
+{
+[v receiveI2C@flag flag `uc  1 a 1 wreg ]
+"453
+[v receiveI2C@buffer buffer `uc  1 a 1 2 ]
+"452
+[v receiveI2C@flag flag `uc  1 a 1 wreg ]
+"454
+[v receiveI2C@flag flag `uc  1 a 1 1 ]
+"463
+} 0
+"408
+[v _readyI2C readyI2C `(v  1 e 1 0 ]
+{
+"410
+} 0
+"43 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+{
+"45
+[v ___fltol@exp1 exp1 `uc  1 a 1 9 ]
+[v ___fltol@sign1 sign1 `uc  1 a 1 8 ]
+"43
+[v ___fltol@f1 f1 `d  1 p 4 0 ]
+"70
+} 0
+"245 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\sprcadd.c
+[v ___flsub __flsub `(d  1 e 4 0 ]
+{
+[v ___flsub@b b `d  1 p 4 16 ]
+[v ___flsub@a a `d  1 p 4 20 ]
+"250
+} 0
+"10
+[v ___fladd __fladd `(d  1 e 4 0 ]
+{
+"17
+[v ___fladd@grs grs `uc  1 a 1 15 ]
+"15
+[v ___fladd@bexp bexp `uc  1 a 1 14 ]
+"16
+[v ___fladd@aexp aexp `uc  1 a 1 13 ]
+"13
+[v ___fladd@signs signs `uc  1 a 1 12 ]
+"10
+[v ___fladd@b b `d  1 p 4 0 ]
+[v ___fladd@a a `d  1 p 4 4 ]
+"237
+} 0
+"4 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\flge.c
+[v ___flge __flge `(b  1 e 0 0 ]
+{
+[v ___flge@ff1 ff1 `d  1 p 4 0 ]
+[v ___flge@ff2 ff2 `d  1 p 4 4 ]
+"19
+} 0
+"11 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+{
+"21
+[v ___fldiv@grs grs `ul  1 a 4 19 ]
+"22
+[v ___fldiv@rem rem `ul  1 a 4 12 ]
+"20
+[v ___fldiv@new_exp new_exp `i  1 a 2 17 ]
+"19
+[v ___fldiv@aexp aexp `uc  1 a 1 24 ]
+"18
+[v ___fldiv@bexp bexp `uc  1 a 1 23 ]
+"16
+[v ___fldiv@sign sign `uc  1 a 1 16 ]
+"11
+[v ___fldiv@b b `d  1 p 4 0 ]
+[v ___fldiv@a a `d  1 p 4 4 ]
+"185
+} 0
+"539 C:\Users\DASAN\OneDrive\Documents\Daniel SCR\Universidad\Proyecto ingenieria\P_Robot_I2C_Serial_LCD_1.X\Main.c
+[v _PrintDataLCD PrintDataLCD `(v  1 e 1 0 ]
+{
+"546
+} 0
+"4 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\strlen.c
+[v _strlen strlen `(ui  1 e 2 0 ]
+{
+"6
+[v strlen@cp cp `*.39Cuc  1 a 2 2 ]
+"4
+[v strlen@s s `*.39Cuc  1 p 2 0 ]
+"13
+} 0
+"518 C:\Users\DASAN\OneDrive\Documents\Daniel SCR\Universidad\Proyecto ingenieria\P_Robot_I2C_Serial_LCD_1.X\Main.c
+[v _WriteLCD WriteLCD `(v  1 e 1 0 ]
+{
+[v WriteLCD@word word `uc  1 a 1 wreg ]
+[v WriteLCD@word word `uc  1 a 1 wreg ]
+[v WriteLCD@word word `uc  1 a 1 2 ]
+"522
+} 0
+"512
+[v _SettingsLCD SettingsLCD `(v  1 e 1 0 ]
+{
+[v SettingsLCD@word word `uc  1 a 1 wreg ]
+[v SettingsLCD@word word `uc  1 a 1 wreg ]
+[v SettingsLCD@word word `uc  1 a 1 2 ]
+"516
+} 0
+"524
+[v _LCD LCD `(v  1 e 1 0 ]
+{
+[v LCD@data data `uc  1 a 1 wreg ]
+[v LCD@data data `uc  1 a 1 wreg ]
+[v LCD@data data `uc  1 a 1 1 ]
+"537
+} 0
+"368
+[v _receive receive `IIH(v  1 e 1 0 ]
+{
+"377
+} 0
+"160
+[v _algoritm algoritm `(v  1 e 1 0 ]
+{
+"350
+} 0
+"499
+[v _mover_servo mover_servo `(v  1 e 1 0 ]
+{
+[v mover_servo@servo servo `i  1 p 2 42 ]
+[v mover_servo@angulo angulo `i  1 p 2 44 ]
+"509
+} 0
+"391
+[v i2_writeI2C writeI2C `(v  1 e 1 0 ]
+{
+[v i2writeI2C@Address Address `uc  1 a 1 wreg ]
+[v i2writeI2C@Address Address `uc  1 a 1 wreg ]
+[v i2writeI2C@Register Register `uc  1 p 1 2 ]
+[v i2writeI2C@Data Data `*.39uc  1 p 2 3 ]
+[v i2writeI2C@bytes bytes `i  1 p 2 5 ]
+[v i2writeI2C@Address Address `uc  1 a 1 9 ]
+"401
+} 0
+"417
+[v i2_stopI2C stopI2C `(v  1 e 1 0 ]
+{
+"421
+} 0
+"403
+[v i2_startI2C startI2C `(v  1 e 1 0 ]
+{
+"406
+} 0
+"412
+[v i2_sendI2C sendI2C `(v  1 e 1 0 ]
+{
+[v i2sendI2C@data data `uc  1 a 1 wreg ]
+[v i2sendI2C@data data `uc  1 a 1 wreg ]
+[v i2sendI2C@data data `uc  1 a 1 1 ]
+"415
+} 0
+"408
+[v i2_readyI2C readyI2C `(v  1 e 1 0 ]
+{
+"410
+} 0
+"495
+[v _map map `(i  1 e 2 0 ]
+{
+[v map@x x `i  1 p 2 14 ]
+[v map@In_Min In_Min `i  1 p 2 16 ]
+[v map@In_Max In_Max `i  1 p 2 18 ]
+[v map@Out_Min Out_Min `i  1 p 2 20 ]
+[v map@Out_Max Out_Max `i  1 p 2 22 ]
+"497
+} 0
+"7 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"10
+[v ___awdiv@quotient quotient `i  1 a 2 6 ]
+"11
+[v ___awdiv@sign sign `uc  1 a 1 5 ]
+[v ___awdiv@counter counter `uc  1 a 1 4 ]
+"7
+[v ___awdiv@dividend dividend `i  1 p 2 0 ]
+[v ___awdiv@divisor divisor `i  1 p 2 2 ]
+"41
+} 0
+"352 C:\Users\DASAN\OneDrive\Documents\Daniel SCR\Universidad\Proyecto ingenieria\P_Robot_I2C_Serial_LCD_1.X\Main.c
+[v _impresion_datos impresion_datos `(v  1 e 1 0 ]
+{
+"365
+} 0
+"379
+[v i2_start start `(v  1 e 1 0 ]
+{
+"388
+} 0
+"505 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\doprnt.c
+[v i2_sprintf sprintf `(i  1 e 2 0 ]
+{
+"545
+[v i2sprintf@val val `ui  1 a 2 39 ]
+"507
+[v i2sprintf@ap ap `[1]*.39v  1 a 2 37 ]
+"512
+[v i2sprintf@c c `uc  1 a 1 41 ]
+"521
+[v i2sprintf@prec prec `c  1 a 1 36 ]
+"525
+[v i2sprintf@flag flag `uc  1 a 1 35 ]
+"505
+[v i2sprintf@sp sp `*.39uc  1 p 2 12 ]
+[v i2sprintf@f f `*.25Cuc  1 p 2 14 ]
+"1567
+} 0
+"7 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\lwmod.c
+[v i2___lwmod __lwmod `(ui  1 e 2 0 ]
+{
+"10
+[v i2___lwmod@counter counter `uc  1 a 1 11 ]
+"7
+[v i2___lwmod@dividend dividend `ui  1 p 2 7 ]
+[v i2___lwmod@divisor divisor `ui  1 p 2 9 ]
+"25
+} 0
+"7 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\lwdiv.c
+[v i2___lwdiv __lwdiv `(ui  1 e 2 0 ]
+{
+"10
+[v i2___lwdiv@quotient quotient `ui  1 a 2 4 ]
+"11
+[v i2___lwdiv@counter counter `uc  1 a 1 6 ]
+"7
+[v i2___lwdiv@dividend dividend `ui  1 p 2 0 ]
+[v i2___lwdiv@divisor divisor `ui  1 p 2 2 ]
+"30
+} 0
+"539 C:\Users\DASAN\OneDrive\Documents\Daniel SCR\Universidad\Proyecto ingenieria\P_Robot_I2C_Serial_LCD_1.X\Main.c
+[v i2_PrintDataLCD PrintDataLCD `(v  1 e 1 0 ]
+{
+"546
+} 0
+"4 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\strlen.c
+[v i2_strlen strlen `(ui  1 e 2 0 ]
+{
+"6
+[v i2strlen@cp cp `*.39Cuc  1 a 2 2 ]
+"4
+[v i2strlen@s s `*.39Cuc  1 p 2 0 ]
+"13
+} 0
+"518 C:\Users\DASAN\OneDrive\Documents\Daniel SCR\Universidad\Proyecto ingenieria\P_Robot_I2C_Serial_LCD_1.X\Main.c
+[v i2_WriteLCD WriteLCD `(v  1 e 1 0 ]
+{
+[v i2WriteLCD@word word `uc  1 a 1 wreg ]
+[v i2WriteLCD@word word `uc  1 a 1 wreg ]
+[v i2WriteLCD@word word `uc  1 a 1 2 ]
+"522
+} 0
+"512
+[v i2_SettingsLCD SettingsLCD `(v  1 e 1 0 ]
+{
+[v i2SettingsLCD@word word `uc  1 a 1 wreg ]
+[v i2SettingsLCD@word word `uc  1 a 1 wreg ]
+[v i2SettingsLCD@word word `uc  1 a 1 2 ]
+"516
+} 0
+"524
+[v i2_LCD LCD `(v  1 e 1 0 ]
+{
+[v i2LCD@data data `uc  1 a 1 wreg ]
+[v i2LCD@data data `uc  1 a 1 wreg ]
+[v i2LCD@data data `uc  1 a 1 1 ]
+"537
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\atoi.c
+[v _atoi atoi `(i  1 e 2 0 ]
+{
+"7
+[v atoi@a a `i  1 a 2 19 ]
+"8
+[v atoi@sign sign `uc  1 a 1 18 ]
+"5
+[v atoi@s s `*.39Cuc  1 p 2 14 ]
+"24
+} 0
+"8 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\isdigit.c
+[v _isdigit isdigit `(b  1 e 0 0 ]
+{
+[v isdigit@c c `uc  1 a 1 wreg ]
+[v isdigit@c c `uc  1 a 1 wreg ]
+"14
+[v isdigit@c c `uc  1 a 1 2 ]
+"15
+} 0
+"15 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 12 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 8 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 10 ]
+"53
+} 0
